@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "203357728651",
+    "project_id": "earningapp-99ed7",
+    "storage_bucket": "earningapp-99ed7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203357728651:android:ffe57ca1ea869d57dd898e",
+        "android_client_info": {
+          "package_name": "com.example.kingearnuser"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZWVyjf9ntrjnVS-tH_ZIPedKHwhLlr3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

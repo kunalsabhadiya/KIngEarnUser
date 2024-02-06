@@ -1,0 +1,85 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/back"
+			android:layout_width="280dp"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/bg1"
+				android:layout_width="match_parent"
+				android:layout_height="165dp"
+				android:padding="8dp"
+				android:background="#35C28D"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/i1"
+					android:focusable="false"
+					android:layout_width="70dp"
+					android:layout_height="70dp"
+					android:src="@drawable/check"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/bg2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<TextView
+					android:id="@+id/t"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:layout_marginBottom="10dp"
+					android:text="Payment Request Successful"
+					android:textSize="16sp"
+					android:textColor="#000000" />
+				<TextView
+					android:id="@+id/tt"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="15dp"
+					android:paddingLeft="10dp"
+					android:paddingRight="10dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="It will be confirmed your payment\nwithin 24 hours after reviewing manually. Thank you."
+					android:textSize="14sp"
+					android:textColor="#9E9E9E" />
+				<LinearLayout
+					android:id="@+id/bt"
+					android:layout_width="110dp"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview3"
+						android:focusable="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingTop="4dp"
+						android:paddingBottom="4dp"
+						android:text="CLOSE"
+						android:textSize="14sp"
+						android:textColor="#9E9E9E" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
