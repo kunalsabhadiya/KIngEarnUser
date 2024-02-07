@@ -378,6 +378,7 @@ public class LoginActivity extends AppCompatActivity {
 					usermap.put("block", "false");
 					usermap.put("limit", "05");
 					usermap.put("click", "0");
+					Toast.makeText(LoginActivity.this, "FirebaseAuth.", Toast.LENGTH_SHORT).show();
 					usermap.put("uid", FirebaseAuth.getInstance().getCurrentUser().getUid());
 					users.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).updateChildren(usermap);
 					usermap.clear();
@@ -399,9 +400,9 @@ public class LoginActivity extends AppCompatActivity {
 					final TextView yes = (TextView) BottomsheetV.findViewById(R.id.yes);
 					_rippleRoundStroke(bg, "#FFFFFF", "#FFFFFF", 15, 0, "#FFFFFF");
 					_rippleRoundStroke(yes, "#F47F3C", "#FFFFFF", 15, 0, "#FFFFFF");
-					title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
-					message.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-					yes.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 0);
+					title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
+					message.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+					yes.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.NORMAL);
 					BottomsheetD.getWindow().findViewById(R.id.design_bottom_sheet).setBackgroundResource(android.R.color.transparent);
 					BottomsheetD.setCancelable(true);
 					yes.setOnClickListener(new View.OnClickListener(){
@@ -450,9 +451,9 @@ public class LoginActivity extends AppCompatActivity {
 						final TextView yes = (TextView) BottomsheetV.findViewById(R.id.yes);
 						_rippleRoundStroke(bg, "#FFFFFF", "#FFFFFF", 15, 0, "#FFFFFF");
 						_rippleRoundStroke(yes, "#F47F3C", "#FFFFFF", 15, 0, "#FFFFFF");
-						title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
-						message.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-						yes.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 0);
+						title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
+						message.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+						yes.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.NORMAL);
 						BottomsheetD.getWindow().findViewById(R.id.design_bottom_sheet).setBackgroundResource(android.R.color.transparent);
 						BottomsheetD.setCancelable(true);
 						yes.setOnClickListener(new View.OnClickListener(){
@@ -488,9 +489,9 @@ public class LoginActivity extends AppCompatActivity {
 					final TextView yes = (TextView) BottomsheetV.findViewById(R.id.yes);
 					_rippleRoundStroke(bg, "#FFFFFF", "#FFFFFF", 15, 0, "#FFFFFF");
 					_rippleRoundStroke(yes, "#F47F3C", "#FFFFFF", 15, 0, "#FFFFFF");
-					title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
-					message.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-					yes.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 0);
+					title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
+					message.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+					yes.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.NORMAL);
 					BottomsheetD.getWindow().findViewById(R.id.design_bottom_sheet).setBackgroundResource(android.R.color.transparent);
 					BottomsheetD.setCancelable(true);
 					yes.setOnClickListener(new View.OnClickListener(){
@@ -516,8 +517,8 @@ public class LoginActivity extends AppCompatActivity {
 		edittext6.setFilters(new InputFilter[] {new InputFilter.LengthFilter(8)});
 		signup_layout.setVisibility(View.GONE);
 		edittext7.setVisibility(View.GONE);
-		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
-		textview6.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
+		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
+		textview6.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
 		_SX_CornerRadius_card(button1, "#F47F3C", 12);
 		_SX_CornerRadius_card(button2, "#F47F3C", 12);
 		_SX_CornerRadius_card(edittext1, "#FFFFFF", 12);

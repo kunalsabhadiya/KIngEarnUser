@@ -286,11 +286,11 @@ public class HistoryActivity extends AppCompatActivity {
 	}
 	
 	private void initializeLogic() {
-		adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-		.build());
+	//	adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
+	//	.build());
 		listview1.setVerticalScrollBarEnabled(false);
 		listview1.setSelector(android.R.color.transparent);
-		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 0);
+		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.NORMAL);
 		imageview2.setVisibility(View.INVISIBLE);
 	}
 	
@@ -502,8 +502,9 @@ public class HistoryActivity extends AppCompatActivity {
 		ArrayList<Double> _result = new ArrayList<Double>();
 		SparseBooleanArray _arr = _list.getCheckedItemPositions();
 		for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
-			if (_arr.valueAt(_iIdx))
-			_result.add((double)_arr.keyAt(_iIdx));
+			if (_arr.valueAt(_iIdx)){
+				_result.add((double) _arr.keyAt(_iIdx));
+			}
 		}
 		return _result;
 	}

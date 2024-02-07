@@ -250,8 +250,8 @@ public class ProfileActivity extends AppCompatActivity {
 				LinearLayout bg2 = (LinearLayout) bottomSheetView.findViewById(R.id.bg2);
 				_rippleRoundStroke(bg2, "#FBAA37", "#EEEEEE", 15, 0, "#EEEEEE");
 				_rippleRoundStroke(bg1, "#FBAA37", "#40FFFFFF", 15, 0, "#000000");
-				t1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
-				t2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
+				t1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
+				t2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
 				bg1.setOnClickListener(new View.OnClickListener(){ public void onClick(View v){
 						bottomSheetDialog.dismiss();
 						w.setClass(getApplicationContext(), WalletActivity.class);
@@ -894,8 +894,8 @@ public class ProfileActivity extends AppCompatActivity {
 	}
 	
 	private void initializeLogic() {
-		adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-		.build());
+		//adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
+		//.build());
 		_ui();
 		_animation();
 		shim_avatar.setVisibility(View.VISIBLE);
@@ -992,22 +992,22 @@ public class ProfileActivity extends AppCompatActivity {
 		_Shadow(5, 0, "#FFFFFF", linear16);
 		_Shadow(5, 0, "#FFFFFF", linear19);
 		_gradientview(linear10);
-		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 1);
-		textview8.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), 1);
-		textview17.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), 1);
-		textview19.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), 1);
-		textview21.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), 1);
-		textview10.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), 1);
-		textview12.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 1);
-		textview15.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 1);
-		textview13.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-		textview16.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), 1);
-		textview3.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-		textview18.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-		textview11.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-		textview20.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
-		textview22.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), 0);
+		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.BOLD);
+		textview8.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), Typeface.BOLD);
+		textview17.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), Typeface.BOLD);
+		textview19.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), Typeface.BOLD);
+		textview21.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), Typeface.BOLD);
+		textview10.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), Typeface.BOLD);
+		textview12.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.BOLD);
+		textview15.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.BOLD);
+		textview13.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+		textview16.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
+		textview3.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+		textview18.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+		textview11.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+		textview20.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
+		textview22.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
 	}
 	
 	
@@ -1064,10 +1064,10 @@ public class ProfileActivity extends AppCompatActivity {
 		TextView negative = (TextView) inflate.findViewById(R.id.textview4);
 		ImageView img = (ImageView) inflate.findViewById(R.id.img);
 		_CardView("#FF111A21", 10, 15, main);
-		title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), 0);
-		description.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/regular.ttf"), 0);
-		positive.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), 0);
-		negative.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), 0);
+		title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
+		description.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/regular.ttf"), Typeface.NORMAL);
+		positive.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
+		negative.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
 		title.setText(_title);
 		description.setText(_description);
 		positive.setText(_positive);
@@ -1243,8 +1243,9 @@ public class ProfileActivity extends AppCompatActivity {
 		ArrayList<Double> _result = new ArrayList<Double>();
 		SparseBooleanArray _arr = _list.getCheckedItemPositions();
 		for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
-			if (_arr.valueAt(_iIdx))
-			_result.add((double)_arr.keyAt(_iIdx));
+			if (_arr.valueAt(_iIdx)){
+				_result.add((double)_arr.keyAt(_iIdx));
+			}
 		}
 		return _result;
 	}

@@ -579,8 +579,8 @@ public class MembershipActivity extends AppCompatActivity {
 	@SuppressLint("MissingPermission")
 	private void initializeLogic() {
 		vscroll1.setVerticalScrollBarEnabled(false);
-		adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-		.build());
+	//	adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
+	//	.build());
 		spin.add("Select Payment Method");
 		spin.add("Bkash/বিকাশ");
 		spin.add("Nagad/নগদ");
@@ -810,8 +810,9 @@ public class MembershipActivity extends AppCompatActivity {
 		ArrayList<Double> _result = new ArrayList<Double>();
 		SparseBooleanArray _arr = _list.getCheckedItemPositions();
 		for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
-			if (_arr.valueAt(_iIdx))
-			_result.add((double)_arr.keyAt(_iIdx));
+			if (_arr.valueAt(_iIdx)){
+				_result.add((double) _arr.keyAt(_iIdx));
+			}
 		}
 		return _result;
 	}

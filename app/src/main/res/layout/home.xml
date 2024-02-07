@@ -302,5 +302,8 @@
 			</LinearLayout>
 		</LinearLayout>
 	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+	<LinearLayout android:id="@+id/_nav_view" android:layout_width="320dp" android:layout_height="match_parent" android:layout_gravity="start" android:background="#EEEEEE">
+		<include layout="@layout/_drawer_home"/>
+	</LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

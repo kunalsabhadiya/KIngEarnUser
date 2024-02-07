@@ -65,6 +65,7 @@
 					android:textColorHint="#9E9E9E"
 					android:singleLine="true"
 					android:imeOptions="actionDone" />
+
 				<Button
 					android:id="@+id/button1"
 					android:layout_width="match_parent"
@@ -72,12 +73,13 @@
 					android:layout_marginLeft="30dp"
 					android:layout_marginRight="30dp"
 					android:layout_marginBottom="8dp"
-					android:padding="8dp"
 					android:background="#FFE300"
+					android:padding="8dp"
 					android:text="LOGIN"
+					android:textColor="#FFFFFF"
 					android:textSize="14sp"
-					android:textStyle="bold"
-					android:textColor="#FFFFFF" />
+					android:textStyle="bold" />
+
 				<TextView
 					android:id="@+id/textview3"
 					android:layout_width="wrap_content"

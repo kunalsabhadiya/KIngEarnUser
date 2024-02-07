@@ -35,12 +35,12 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdRequest;
 import java.util.Timer;
 import java.util.TimerTask;
-import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.AdListener;
 import android.webkit.WebViewClient;
 import android.view.View;
 import android.graphics.Typeface;
 import com.facebook.shimmer.*;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.theartofdev.edmodo.cropper.*;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -125,14 +125,10 @@ public class WebActivity extends AppCompatActivity {
 		_Interstitial_ad_listener = new AdListener() {
 			@Override
 			public void onAdLoaded() {
-				Interstitial.show();
+				Interstitial.show(WebActivity.this);
 			}
 			
-			@Override
-			public void onAdFailedToLoad(int _param1) {
-				final int _errorCode = _param1;
-				
-			}
+
 			
 			@Override
 			public void onAdOpened() {
@@ -147,14 +143,14 @@ public class WebActivity extends AppCompatActivity {
 	}
 	
 	private void initializeLogic() {
-		adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-		.build());
+		//adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
+		//.build());
 		webview1.setVerticalScrollBarEnabled(false);
 		webview1.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
 		webview1.loadUrl(getIntent().getStringExtra("link"));
 		imageview2.setVisibility(View.INVISIBLE);
 		textview1.setText(getIntent().getStringExtra("title"));
-		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 1);
+		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.BOLD);
 	}
 	
 	@Override
@@ -180,11 +176,13 @@ public class WebActivity extends AppCompatActivity {
 	@Override
 	public void onStart() {
 		super.onStart();
-		Interstitial = new InterstitialAd(getApplicationContext());
+		/*Interstitial = new InterstitialAd(getApplicationContext());
 		Interstitial.setAdListener(_Interstitial_ad_listener);
 		Interstitial.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
 		Interstitial.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
 		.build());
+
+		 */
 	}
 	@Deprecated
 	public void showMessage(String _s) {

@@ -345,8 +345,8 @@ public class QuizActivity extends AppCompatActivity {
 	@SuppressLint("MissingPermission")
 	private void initializeLogic() {
 		progressbar1.setProgressDrawable(getDrawable(R.drawable.progress));
-		adview2.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-		.build());
+	//	adview2.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
+		//.build());
 		imageview2.setVisibility(View.INVISIBLE);
 		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.BOLD);
 		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
@@ -614,8 +614,9 @@ public class QuizActivity extends AppCompatActivity {
 		ArrayList<Double> _result = new ArrayList<Double>();
 		SparseBooleanArray _arr = _list.getCheckedItemPositions();
 		for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
-			if (_arr.valueAt(_iIdx))
-			_result.add((double)_arr.keyAt(_iIdx));
+			if (_arr.valueAt(_iIdx)){
+				_result.add((double)_arr.keyAt(_iIdx));
+			}
 		}
 		return _result;
 	}

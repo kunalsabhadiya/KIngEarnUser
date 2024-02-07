@@ -92,7 +92,7 @@ bluetoothConnect.getActivity().runOnUiThread(new Runnable() {
 @Override
 public void run() {
 HashMap<String, Object> deviceMap = new HashMap<>();
-deviceMap.put("name", device.getName());
+//deviceMap.put("name", device.getName());
 deviceMap.put("address", device.getAddress());
 
 listener.onConnected(tag, deviceMap);

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.*;
 import android.app.*;
 import android.os.*;
+import android.text.util.Linkify;
 import android.view.*;
 import android.view.View.*;
 import android.widget.*;
@@ -182,12 +183,12 @@ public class NotificationActivity extends AppCompatActivity {
 	}
 	
 	private void initializeLogic() {
-		adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-		.build());
+		//adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
+		//.build());
 		listview1.setVerticalScrollBarEnabled(false);
 		listview1.setSelector(android.R.color.transparent);
 		imageview2.setVisibility(View.INVISIBLE);
-		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), 1);
+		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.BOLD);
 	}
 	
 	@Override
@@ -254,7 +255,7 @@ public class NotificationActivity extends AppCompatActivity {
 			}
 			if (_data.get((int)_position).containsKey("notice")) {
 				mystring = lm.get((int)_position).get("notice").toString();
-				SpannableString ss = new SpannableString(mystring); (new android.text.util.Linkify()).addLinks(ss, 1); textview2.setText(ss); textview2.setMovementMethod(android.text.method.LinkMovementMethod.getInstance());
+				SpannableString ss = new SpannableString(mystring); (new android.text.util.Linkify()).addLinks(ss, Linkify.WEB_URLS); textview2.setText(ss); textview2.setMovementMethod(android.text.method.LinkMovementMethod.getInstance());
 			}
 			if (_data.get((int)_position).containsKey("date")) {
 				textview4.setText(_data.get((int)_position).get("date").toString());
@@ -304,8 +305,9 @@ public class NotificationActivity extends AppCompatActivity {
 		ArrayList<Double> _result = new ArrayList<Double>();
 		SparseBooleanArray _arr = _list.getCheckedItemPositions();
 		for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
-			if (_arr.valueAt(_iIdx))
-			_result.add((double)_arr.keyAt(_iIdx));
+			if (_arr.valueAt(_iIdx)){
+				_result.add((double)_arr.keyAt(_iIdx));
+			}
 		}
 		return _result;
 	}

@@ -9,6 +9,7 @@ import com.example.kingearnuser.Controller.RequestNetwork;
 import com.example.kingearnuser.Controller.RequestNetworkController;
 import com.example.kingearnuser.R;
 import com.example.kingearnuser.Utils.SketchwareUtil;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.material.appbar.AppBarLayout;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -56,7 +57,6 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
-import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.AdListener;
 import android.view.View;
 import android.graphics.Typeface;
@@ -229,7 +229,7 @@ public class HomeActivity extends AppCompatActivity {
 		setContentView(R.layout.home);
 		initialize(_savedInstanceState);
 		com.google.firebase.FirebaseApp.initializeApp(this);
-		initializeLogic();
+		//initializeLogic();
 	}
 	
 	private void initialize(Bundle _savedInstanceState) {
@@ -423,7 +423,7 @@ public class HomeActivity extends AppCompatActivity {
 //				}catch(Exception e){
 //					showMessage(e.toString());
 //				}
-				if (vpnInUse) {
+				/*if (vpnInUse) {
 					inter = new InterstitialAd(getApplicationContext());
 					inter.setAdListener(_inter_ad_listener);
 					inter.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
@@ -485,7 +485,7 @@ public class HomeActivity extends AppCompatActivity {
 						}
 					}
 					SketchwareUtil.showMessage(getApplicationContext(), "No VPN CONNECTION");
-				}
+				}*/
 			}
 		});
 
@@ -1417,14 +1417,10 @@ public class HomeActivity extends AppCompatActivity {
 			@Override
 			public void onAdLoaded() {
 				_loadingdialog(false, "");
-				inter.show();
+				inter.show(HomeActivity.this);
 			}
 
-			@Override
-			public void onAdFailedToLoad(int _param1) {
-				final int _errorCode = _param1;
 
-			}
 			
 			@Override
 			public void onAdOpened() {
@@ -1454,7 +1450,7 @@ public class HomeActivity extends AppCompatActivity {
 	}
 	
 	@SuppressLint("MissingPermission")
-	private void initializeLogic() {
+	/*private void initializeLogic() {
 		adview3.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
 		.build());
 
@@ -1499,7 +1495,7 @@ public class HomeActivity extends AppCompatActivity {
 			}
 		};
 		_timer.scheduleAtFixedRate(slide, (int)(0), (int)(3000));
-	}
+	}*/
 	
 	@Override
 	protected void onActivityResult(int _requestCode, int _resultCode, Intent _data) {

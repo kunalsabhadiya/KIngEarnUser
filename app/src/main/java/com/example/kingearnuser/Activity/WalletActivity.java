@@ -24,6 +24,7 @@ import com.example.kingearnuser.Utils.FileUtil;
 import com.example.kingearnuser.Utils.SketchwareUtil;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
@@ -38,8 +39,7 @@ import com.google.android.gms.tasks.Task;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import java.util.Calendar;
-import java.text.SimpleDateFormat;
-import com.google.android.gms.ads.InterstitialAd;
+import java.text.SimpleDateFormat;;
 import com.google.android.gms.ads.AdListener;
 import android.view.View;
 import java.text.DecimalFormat;
@@ -750,14 +750,10 @@ public class WalletActivity extends AppCompatActivity {
 		_Interstitial_ad_ad_listener = new AdListener() {
 			@Override
 			public void onAdLoaded() {
-				Interstitial_ad.show();
+				Interstitial_ad.show(WalletActivity.this);
 			}
 			
-			@Override
-			public void onAdFailedToLoad(int _param1) {
-				final int _errorCode = _param1;
 
-			}
 			
 			@Override
 			public void onAdOpened() {
@@ -773,8 +769,8 @@ public class WalletActivity extends AppCompatActivity {
 	
 	@SuppressLint("MissingPermission")
 	private void initializeLogic() {
-		adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-		.build());
+	//	adview1.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
+		//.build());
 		_ui();
 	}
 	
@@ -792,11 +788,14 @@ public class WalletActivity extends AppCompatActivity {
 	@Override
 	public void onStart() {
 		super.onStart();
-		Interstitial_ad = new InterstitialAd(getApplicationContext());
+	/*	Interstitial_ad = new InterstitialAd(getApplicationContext());
 		Interstitial_ad.setAdListener(_Interstitial_ad_ad_listener);
 		Interstitial_ad.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
 		Interstitial_ad.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
 		.build());
+
+
+	 */
 	}
 	public void _ui () {
 		vscroll1.setVerticalScrollBarEnabled(false);
