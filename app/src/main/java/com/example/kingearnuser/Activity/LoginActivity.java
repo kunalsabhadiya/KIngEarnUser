@@ -1,5 +1,6 @@
 package com.example.kingearnuser.Activity;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.*;
@@ -43,17 +44,12 @@ import android.graphics.Typeface;
 
 
 public class LoginActivity extends AppCompatActivity {
-	private FirebaseDatabase _firebase = FirebaseDatabase.getInstance();
+	private final FirebaseDatabase _firebase = FirebaseDatabase.getInstance();
 	
 	private HashMap<String, Object> usermap = new HashMap<>();
-	private double tm_difference = 0;
-	private double current_time = 0;
 	private String ref = "";
-	
-	private ArrayList<String> ls = new ArrayList<>();
-	
 	private ScrollView vscroll1;
-	private LinearLayout linear22;
+
 	private LinearLayout login_layout;
 	private LinearLayout signup_layout;
 	private TextView textview2;
@@ -62,9 +58,7 @@ public class LoginActivity extends AppCompatActivity {
 	private Button button1;
 	private TextView textview3;
 	private TextView textview4;
-	private LinearLayout linear2;
 	private TextView textview6;
-	private LinearLayout linear23;
 	private EditText edittext3;
 	private EditText edittext4;
 	private EditText edittext7;
@@ -75,22 +69,13 @@ public class LoginActivity extends AppCompatActivity {
 	
 	private Intent i = new Intent();
 	private FirebaseAuth auth;
-	private OnCompleteListener<Void> auth_updateEmailListener;
-	private OnCompleteListener<Void> auth_updatePasswordListener;
-	private OnCompleteListener<Void> auth_emailVerificationSentListener;
-	private OnCompleteListener<Void> auth_deleteUserListener;
-	private OnCompleteListener<Void> auth_updateProfileListener;
-	private OnCompleteListener<AuthResult> auth_phoneAuthListener;
-	private OnCompleteListener<AuthResult> auth_googleSignInListener;
 	private OnCompleteListener<AuthResult> _auth_create_user_listener;
 	private OnCompleteListener<AuthResult> _auth_sign_in_listener;
 	private OnCompleteListener<Void> _auth_reset_password_listener;
 	private DatabaseReference users = _firebase.getReference("users");
-	private ChildEventListener _users_child_listener;
-	private Intent n = new Intent();
 	private Calendar c = Calendar.getInstance();
 	private SharedPreferences tme;
-	private Calendar clnd = Calendar.getInstance();
+	private Calendar clnd ;
 	
 	@Override
 	protected void onCreate(Bundle _savedInstanceState) {
@@ -103,7 +88,6 @@ public class LoginActivity extends AppCompatActivity {
 	
 	private void initialize(Bundle _savedInstanceState) {
 		vscroll1 = (ScrollView) findViewById(R.id.vscroll1);
-		linear22 = (LinearLayout) findViewById(R.id.linear22);
 		login_layout = (LinearLayout) findViewById(R.id.login_layout);
 		signup_layout = (LinearLayout) findViewById(R.id.signup_layout);
 		textview2 = (TextView) findViewById(R.id.textview2);
@@ -112,9 +96,8 @@ public class LoginActivity extends AppCompatActivity {
 		button1 = (Button) findViewById(R.id.button1);
 		textview3 = (TextView) findViewById(R.id.textview3);
 		textview4 = (TextView) findViewById(R.id.textview4);
-		linear2 = (LinearLayout) findViewById(R.id.linear2);
+
 		textview6 = (TextView) findViewById(R.id.textview6);
-		linear23 = (LinearLayout) findViewById(R.id.linear23);
 		edittext3 = (EditText) findViewById(R.id.edittext3);
 		edittext4 = (EditText) findViewById(R.id.edittext4);
 		edittext7 = (EditText) findViewById(R.id.edittext7);
@@ -143,7 +126,7 @@ public class LoginActivity extends AppCompatActivity {
 				}
 			}
 		});
-		
+		//forgot password method
 		textview3.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
@@ -157,7 +140,7 @@ public class LoginActivity extends AppCompatActivity {
 				}
 			}
 		});
-		
+		//sign up activity open
 		textview4.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
@@ -165,7 +148,7 @@ public class LoginActivity extends AppCompatActivity {
 				signup_layout.setVisibility(View.VISIBLE);
 			}
 		});
-		
+		//signup button
 		button2.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
@@ -195,7 +178,7 @@ public class LoginActivity extends AppCompatActivity {
 				}
 			}
 		});
-		
+		//signin activity open
 		textview8.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
@@ -244,7 +227,7 @@ public class LoginActivity extends AppCompatActivity {
 			}
 		});
 		
-		_users_child_listener = new ChildEventListener() {
+		users.addChildEventListener(new ChildEventListener() {
 			@Override
 			public void onChildAdded(DataSnapshot _param1, String _param2) {
 				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
@@ -256,7 +239,7 @@ public class LoginActivity extends AppCompatActivity {
 					}
 				}
 			}
-			
+
 			@Override
 			public void onChildChanged(DataSnapshot _param1, String _param2) {
 				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
@@ -268,92 +251,23 @@ public class LoginActivity extends AppCompatActivity {
 					}
 				}
 			}
-			
+
 			@Override
 			public void onChildMoved(DataSnapshot _param1, String _param2) {
-				
+
 			}
-			
+
 			@Override
 			public void onChildRemoved(DataSnapshot _param1) {
-				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
-				final String _childKey = _param1.getKey();
-				final HashMap<String, Object> _childValue = _param1.getValue(_ind);
-				
+
 			}
-			
+
 			@Override
 			public void onCancelled(DatabaseError _param1) {
-				final int _errorCode = _param1.getCode();
-				final String _errorMessage = _param1.getMessage();
-				
+
 			}
-		};
-		users.addChildEventListener(_users_child_listener);
-		
-		auth_updateEmailListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_updatePasswordListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_emailVerificationSentListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_deleteUserListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_phoneAuthListener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> task){
-				final boolean _success = task.isSuccessful();
-				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_updateProfileListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_googleSignInListener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> task){
-				final boolean _success = task.isSuccessful();
-				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
-				
-			}
-		};
-		
+		});
+
 		_auth_create_user_listener = new OnCompleteListener<AuthResult>() {
 			@Override
 			public void onComplete(Task<AuthResult> _param1) {
@@ -365,7 +279,7 @@ public class LoginActivity extends AppCompatActivity {
 					usermap.put("lastname", edittext6.getText().toString().trim());
 					usermap.put("email", edittext3.getText().toString().trim());
 					usermap.put("pass", edittext4.getText().toString().trim());
-					usermap.put("referralcode", edittext5.getText().toString().trim().substring((int)(0), (int)(1)).concat(edittext6.getText().toString().trim().substring((int)(0), (int)(1))).toUpperCase().concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(99999))))));
+					usermap.put("referralcode", edittext5.getText().toString().trim().substring(0, 1).concat(edittext6.getText().toString().trim().substring(0, 1)).toUpperCase().concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(99999))))));
 					usermap.put("account", String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))))))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))))))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9))))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9)))).concat(String.valueOf((long)(SketchwareUtil.getRandom((int)(0), (int)(9))))))));
 					usermap.put("avatar", "null");
 					usermap.put("Free", "true");
@@ -427,9 +341,11 @@ public class LoginActivity extends AppCompatActivity {
 			public void onComplete(Task<AuthResult> _param1) {
 				final boolean _success = _param1.isSuccessful();
 				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
+
 				if (_success) {
-					if (auth.getCurrentUser().isEmailVerified()) {
-						_loadingdialog(false, "");
+					_loadingdialog(false, "");
+					if (Objects.requireNonNull(auth.getCurrentUser()).isEmailVerified()) {
+
 						SketchwareUtil.showMessage(getApplicationContext(), "Successfully Login");
 						_getTime();
 						i.setClass(getApplicationContext(), HomeActivity.class);
@@ -438,7 +354,6 @@ public class LoginActivity extends AppCompatActivity {
 					}
 					else {
 						edittext2.setText("");
-						_loadingdialog(false, "");
 						FirebaseAuth.getInstance().signOut();
 						final com.google.android.material.bottomsheet.BottomSheetDialog BottomsheetD = new com.google.android.material.bottomsheet.BottomSheetDialog(LoginActivity.this);
 						View BottomsheetV;
@@ -533,25 +448,14 @@ public class LoginActivity extends AppCompatActivity {
 	@Override
 	protected void onActivityResult(int _requestCode, int _resultCode, Intent _data) {
 		super.onActivityResult(_requestCode, _resultCode, _data);
-		switch (_requestCode) {
-			
-			default:
-			break;
-		}
 	}
 	
 	@Override
 	public void onBackPressed() {
+		super.onBackPressed();
 		finishAffinity();
 	}
-	public void _gd (final View _view, final double _numb, final String _color) {
-		android.graphics.drawable.GradientDrawable gd = new android.graphics.drawable.GradientDrawable();
-		gd.setColor(Color.parseColor(_color));
-		gd.setCornerRadius((int)_numb);
-		_view.setBackground(gd);
-	}
-	
-	
+
 	public void _loadingdialog (final boolean _ifShow, final String _title) {
 		if (_ifShow) {
 			if (prog == null){
@@ -572,9 +476,10 @@ public class LoginActivity extends AppCompatActivity {
 			
 			
 		}
-	} private ProgressDialog prog; {
-		
-		
+	}
+	private ProgressDialog prog; {
+
+
 	}
 	
 	
@@ -600,74 +505,13 @@ public class LoginActivity extends AppCompatActivity {
 		_view.setBackground(RE);
 		_view.setElevation(5);
 	}
-	
-	
-	public void _createSnackBar (final String _message) {
-		ViewGroup parentLayout = (ViewGroup) ((ViewGroup) this .findViewById(android.R.id.content)).getChildAt(0);
-		   com.google.android.material.snackbar.Snackbar.make(parentLayout, _message, com.google.android.material.snackbar.Snackbar.LENGTH_LONG) 
-		        .setAction("OK", new View.OnClickListener() {
-			            @Override 
-			            public void onClick(View view) {
-				
-				            } 
-			        }).show();
-	}
-	
+
 	
 	public void _getTime () {
 		clnd = Calendar.getInstance();
-		tme.edit().putString("time_", String.valueOf((long)(clnd.getTimeInMillis()))).commit();
+		tme.edit().putString("time_", String.valueOf(clnd.getTimeInMillis())).apply();
 	}
-	
-	
-	@Deprecated
-	public void showMessage(String _s) {
-		Toast.makeText(getApplicationContext(), _s, Toast.LENGTH_SHORT).show();
-	}
-	
-	@Deprecated
-	public int getLocationX(View _v) {
-		int _location[] = new int[2];
-		_v.getLocationInWindow(_location);
-		return _location[0];
-	}
-	
-	@Deprecated
-	public int getLocationY(View _v) {
-		int _location[] = new int[2];
-		_v.getLocationInWindow(_location);
-		return _location[1];
-	}
-	
-	@Deprecated
-	public int getRandom(int _min, int _max) {
-		Random random = new Random();
-		return random.nextInt(_max - _min + 1) + _min;
-	}
-	
-	@Deprecated
-	public ArrayList<Double> getCheckedItemPositionsToArray(ListView _list) {
-		ArrayList<Double> _result = new ArrayList<Double>();
-		SparseBooleanArray _arr = _list.getCheckedItemPositions();
-		for (int _iIdx = 0; _iIdx < _arr.size(); _iIdx++) {
-			if (_arr.valueAt(_iIdx))
-			_result.add((double)_arr.keyAt(_iIdx));
-		}
-		return _result;
-	}
-	
-	@Deprecated
-	public float getDip(int _input) {
-		return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, _input, getResources().getDisplayMetrics());
-	}
-	
-	@Deprecated
-	public int getDisplayWidthPixels() {
-		return getResources().getDisplayMetrics().widthPixels;
-	}
-	
-	@Deprecated
-	public int getDisplayHeightPixels() {
-		return getResources().getDisplayMetrics().heightPixels;
-	}
+
+
+
 }

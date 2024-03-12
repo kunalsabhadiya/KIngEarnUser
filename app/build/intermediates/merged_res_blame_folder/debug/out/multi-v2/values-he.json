@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-he\\values-he.xml",
+            "outputFile": "com.example.kingearnuser.app-mergeDebugResources-44:/values-he/values-he.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\b54109c5ce658d6d04054a1253a0d1e9\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-he\\values-he.xml",
+                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\1380d9381315ffd9b8616eb1dbca1b85\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-he\\values-he.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

@@ -73,22 +73,8 @@ public class CropimageActivity extends AppCompatActivity {
 	private TimerTask fini;
 	private StorageReference users_img = _firebase_storage.getReference("users_img");
 	private OnCompleteListener<Uri> _users_img_upload_success_listener;
-	private OnSuccessListener<FileDownloadTask.TaskSnapshot> _users_img_download_success_listener;
-	private OnSuccessListener _users_img_delete_success_listener;
 	private OnProgressListener _users_img_upload_progress_listener;
-	private OnProgressListener _users_img_download_progress_listener;
 	private OnFailureListener _users_img_failure_listener;
-	private FirebaseAuth auth;
-	private OnCompleteListener<Void> auth_updateEmailListener;
-	private OnCompleteListener<Void> auth_updatePasswordListener;
-	private OnCompleteListener<Void> auth_emailVerificationSentListener;
-	private OnCompleteListener<Void> auth_deleteUserListener;
-	private OnCompleteListener<Void> auth_updateProfileListener;
-	private OnCompleteListener<AuthResult> auth_phoneAuthListener;
-	private OnCompleteListener<AuthResult> auth_googleSignInListener;
-	private OnCompleteListener<AuthResult> _auth_create_user_listener;
-	private OnCompleteListener<AuthResult> _auth_sign_in_listener;
-	private OnCompleteListener<Void> _auth_reset_password_listener;
 	private DatabaseReference users = _firebase.getReference("users");
 	private ChildEventListener _users_child_listener;
 	
@@ -124,8 +110,7 @@ public class CropimageActivity extends AppCompatActivity {
 		textview2 = (TextView) findViewById(R.id.textview2);
 		imageview1 = (ImageView) findViewById(R.id.imageview1);
 		imageview2 = (ImageView) findViewById(R.id.imageview2);
-		auth = FirebaseAuth.getInstance();
-		
+
 		textview1.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
@@ -184,14 +169,7 @@ public class CropimageActivity extends AppCompatActivity {
 				_loadingdialog(true, "Uploading ".concat(String.valueOf((long)(_progressValue)).concat("%")));
 			}
 		};
-		
-		_users_img_download_progress_listener = new OnProgressListener<FileDownloadTask.TaskSnapshot>() {
-			@Override
-			public void onProgress(FileDownloadTask.TaskSnapshot _param1) {
-				double _progressValue = (100.0 * _param1.getBytesTransferred()) / _param1.getTotalByteCount();
-				
-			}
-		};
+
 		
 		_users_img_upload_success_listener = new OnCompleteListener<Uri>() {
 			@Override
@@ -204,21 +182,8 @@ public class CropimageActivity extends AppCompatActivity {
 				finish();
 			}
 		};
-		
-		_users_img_download_success_listener = new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
-			@Override
-			public void onSuccess(FileDownloadTask.TaskSnapshot _param1) {
-				final long _totalByteCount = _param1.getTotalByteCount();
-				
-			}
-		};
-		
-		_users_img_delete_success_listener = new OnSuccessListener() {
-			@Override
-			public void onSuccess(Object _param1) {
-				
-			}
-		};
+
+
 		
 		_users_img_failure_listener = new OnFailureListener() {
 			@Override
@@ -267,95 +232,7 @@ public class CropimageActivity extends AppCompatActivity {
 			}
 		};
 		users.addChildEventListener(_users_child_listener);
-		
-		auth_updateEmailListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_updatePasswordListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_emailVerificationSentListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_deleteUserListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_phoneAuthListener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> task){
-				final boolean _success = task.isSuccessful();
-				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_updateProfileListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_googleSignInListener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> task){
-				final boolean _success = task.isSuccessful();
-				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
-				
-			}
-		};
-		
-		_auth_create_user_listener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		_auth_sign_in_listener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		_auth_reset_password_listener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				
-			}
-		};
+
 	}
 	
 	private void initializeLogic() {

@@ -1,5 +1,7 @@
 package com.example.kingearnuser.Activity;
 
+import static com.example.kingearnuser.Utils.SketchwareUtil.showMessage;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.annotation.*;
 import androidx.appcompat.widget.Toolbar;
@@ -9,6 +11,14 @@ import com.example.kingearnuser.Controller.RequestNetwork;
 import com.example.kingearnuser.Controller.RequestNetworkController;
 import com.example.kingearnuser.R;
 import com.example.kingearnuser.Utils.SketchwareUtil;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.FullScreenContentCallback;
+import com.google.android.gms.ads.LoadAdError;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.OnPaidEventListener;
+import com.google.android.gms.ads.ResponseInfo;
+import com.google.android.gms.ads.initialization.InitializationStatus;
+import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.material.appbar.AppBarLayout;
 import androidx.core.view.GravityCompat;
@@ -16,6 +26,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 
 import android.annotation.SuppressLint;
+import android.net.Network;
+import android.net.NetworkCapabilities;
 import android.widget.LinearLayout;
 import android.app.*;
 import android.os.*;
@@ -23,7 +35,6 @@ import android.view.*;
 import android.widget.*;
 import android.content.*;
 import android.graphics.*;
-import android.graphics.drawable.*;
 import android.text.*;
 import android.util.*;
 
@@ -33,7 +44,6 @@ import android.widget.ScrollView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.AdRequest;
 import de.hdodenhof.circleimageview.*;
 import android.content.Intent;
 import android.net.Uri;
@@ -46,13 +56,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ChildEventListener;
 import android.app.AlertDialog;
-
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import java.util.Timer;
-import java.util.TimerTask;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import java.util.Calendar;
@@ -64,50 +68,35 @@ import com.bumptech.glide.Glide;
 
 
 public class HomeActivity extends AppCompatActivity {
-	private Timer _timer = new Timer();
 	private FirebaseDatabase _firebase = FirebaseDatabase.getInstance();
 	
 	private Toolbar _toolbar;
-	private AppBarLayout _app_bar;
-	private CoordinatorLayout _coordinator;
 	private DrawerLayout _drawer;
-	private String fontName = "";
-	private String typeace = "";
+
 	private double tm_difference = 0;
 	private double current_time = 0;
 	private String username = "";
-	private double count = 0;
 	private String slider1 = "";
 	private String slider2 = "";
 	private String slider3 = "";
-	private String fname = "";
-	private String lname = "";
+
 	private HashMap<String, Object> map = new HashMap<>();
 	private double now_time = 0;
 	private String balance = "";
 	private double last_Claimed = 0;
 	private String time_X = "";
 	private String key = "";
-	private double coin = 0;
-	private String money = "";
+
 	private double limit = 0;
-	private double n = 0;
-	private double n2 = 0;
 	private String time = "";
 	private double last = 0;
 	private double now = 0;
-	private HashMap<String, Object> m = new HashMap<>();
 	private double click = 0;
-	private boolean vpnInUse = false;
-	
-	private LinearLayout linear1;
-	private LinearLayout linear2;
-	private ScrollView vscroll2;
+	private HashMap<String, Object> m = new HashMap<>();
 	private ImageView imageview1;
-	private LinearLayout linear3;
+
 	private ImageView imageview2;
-	private TextView textview5;
-	private LinearLayout linear11;
+
 	private LinearLayout linear12;
 	private LinearLayout linear13;
 	private LinearLayout linear_1;
@@ -152,33 +141,9 @@ public class HomeActivity extends AppCompatActivity {
 	private LinearLayout _drawer_linear3;
 	private CircleImageView _drawer_imageview_avatar;
 	private TextView _drawer_textview_name;
-	private ImageView _drawer_imageview3;
-	private TextView _drawer_textview_home;
-	private ImageView _drawer_imageview5;
-	private TextView _drawer_textview_profile;
-	private ImageView _drawer_imageview6;
-	private TextView _drawer_textview_membership;
-	private ImageView _drawer_imageview8;
-	private TextView _drawer_textview_rateus;
-	private ImageView _drawer_imageview13;
-	private TextView _drawer_textview_share;
-	private ImageView _drawer_imageview9;
-	private TextView _drawer_textview_privacy;
-	private ImageView _drawer_imageview10;
-	private TextView _drawer_textview_about;
-	private ImageView _drawer_imageview11;
-	private TextView _drawer_textview_report;
-	private ImageView _drawer_imageview12;
-	private TextView _drawer_textview_guide;
-	private ImageView _drawer_imageview17;
-	private TextView _drawer_textview_exit;
-	private TextView _drawer_textview_follow;
-	private LinearLayout _drawer_linear17;
-	private LinearLayout _drawer_linear18;
 	private ImageView _drawer_imageview14;
 	private ImageView _drawer_imageview15;
 	private ImageView _drawer_imageview16;
-	private TextView _drawer_textview1;
 	
 	private RequestNetwork net;
 	private RequestNetwork.RequestListener _net_request_listener;
@@ -194,19 +159,8 @@ public class HomeActivity extends AppCompatActivity {
 	private ChildEventListener _users_child_listener;
 	private AlertDialog.Builder dialog;
 	private FirebaseAuth auth;
-	private OnCompleteListener<Void> auth_updateEmailListener;
-	private OnCompleteListener<Void> auth_updatePasswordListener;
-	private OnCompleteListener<Void> auth_emailVerificationSentListener;
-	private OnCompleteListener<Void> auth_deleteUserListener;
-	private OnCompleteListener<Void> auth_updateProfileListener;
-	private OnCompleteListener<AuthResult> auth_phoneAuthListener;
-	private OnCompleteListener<AuthResult> auth_googleSignInListener;
-	private OnCompleteListener<AuthResult> _auth_create_user_listener;
-	private OnCompleteListener<AuthResult> _auth_sign_in_listener;
-	private OnCompleteListener<Void> _auth_reset_password_listener;
-	private TimerTask slide;
-	private DatabaseReference sponsor = _firebase.getReference("sponsor");
-	private ChildEventListener _sponsor_child_listener;
+//	private DatabaseReference sponsor = _firebase.getReference("sponsor");
+//	private ChildEventListener _sponsor_child_listener;
 	private Intent go = new Intent();
 	private SharedPreferences tme;
 	private Calendar clnd = Calendar.getInstance();
@@ -221,45 +175,38 @@ public class HomeActivity extends AppCompatActivity {
 	private AdListener _inter_ad_listener;
 	private DatabaseReference ad_time = _firebase.getReference("ad_time");
 	private ChildEventListener _ad_time_child_listener;
+	private boolean vpnInUse = false;
 	private Calendar c = Calendar.getInstance();
 	
 	@Override
 	protected void onCreate(Bundle _savedInstanceState) {
 		super.onCreate(_savedInstanceState);
 		setContentView(R.layout.home);
-		initialize(_savedInstanceState);
+		initialize();
 		com.google.firebase.FirebaseApp.initializeApp(this);
 		//initializeLogic();
 	}
 	
-	private void initialize(Bundle _savedInstanceState) {
-		_app_bar = (AppBarLayout) findViewById(R.id._app_bar);
-		_coordinator = (CoordinatorLayout) findViewById(R.id._coordinator);
-		_toolbar = (Toolbar) findViewById(R.id._toolbar);
+	private void initialize() {
+
 		setSupportActionBar(_toolbar);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+	/*getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
 		_toolbar.setNavigationOnClickListener(new View.OnClickListener() {
 			@Override
-			public void onClick(View _v) {
+		public void onClick(View _v) {
 				onBackPressed();
 			}
 		});
-		_drawer = (DrawerLayout) findViewById(R.id._drawer);
+	*/	_drawer = (DrawerLayout) findViewById(R.id._drawer);
 		ActionBarDrawerToggle _toggle = new ActionBarDrawerToggle(HomeActivity.this, _drawer, _toolbar, R.string.app_name, R.string.app_name);
 		_drawer.addDrawerListener(_toggle);
 		_toggle.syncState();
 		
 		LinearLayout _nav_view = (LinearLayout) findViewById(R.id._nav_view);
 		
-		linear1 = (LinearLayout) findViewById(R.id.linear1);
-		linear2 = (LinearLayout) findViewById(R.id.linear2);
-		vscroll2 = (ScrollView) findViewById(R.id.vscroll2);
 		imageview1 = (ImageView) findViewById(R.id.imageview1);
-		linear3 = (LinearLayout) findViewById(R.id.linear3);
 		imageview2 = (ImageView) findViewById(R.id.imageview2);
-		textview5 = (TextView) findViewById(R.id.textview5);
-		linear11 = (LinearLayout) findViewById(R.id.linear11);
 		linear12 = (LinearLayout) findViewById(R.id.linear12);
 		linear13 = (LinearLayout) findViewById(R.id.linear13);
 		linear_1 = (LinearLayout) findViewById(R.id.linear_1);
@@ -303,37 +250,32 @@ public class HomeActivity extends AppCompatActivity {
 		_drawer_linear3 = (LinearLayout) _nav_view.findViewById(R.id.linear3);
 		_drawer_imageview_avatar = (CircleImageView) _nav_view.findViewById(R.id.imageview_avatar);
 		_drawer_textview_name = (TextView) _nav_view.findViewById(R.id.textview_name);
-		_drawer_imageview3 = (ImageView) _nav_view.findViewById(R.id.imageview3);
-		_drawer_textview_home = (TextView) _nav_view.findViewById(R.id.textview_home);
-		_drawer_imageview5 = (ImageView) _nav_view.findViewById(R.id.imageview5);
-		_drawer_textview_profile = (TextView) _nav_view.findViewById(R.id.textview_profile);
-		_drawer_imageview6 = (ImageView) _nav_view.findViewById(R.id.imageview6);
-		_drawer_textview_membership = (TextView) _nav_view.findViewById(R.id.textview_membership);
-		_drawer_imageview8 = (ImageView) _nav_view.findViewById(R.id.imageview8);
-		_drawer_textview_rateus = (TextView) _nav_view.findViewById(R.id.textview_rateus);
-		_drawer_imageview13 = (ImageView) _nav_view.findViewById(R.id.imageview13);
-		_drawer_textview_share = (TextView) _nav_view.findViewById(R.id.textview_share);
-		_drawer_imageview9 = (ImageView) _nav_view.findViewById(R.id.imageview9);
-		_drawer_textview_privacy = (TextView) _nav_view.findViewById(R.id.textview_privacy);
-		_drawer_imageview10 = (ImageView) _nav_view.findViewById(R.id.imageview10);
-		_drawer_textview_about = (TextView) _nav_view.findViewById(R.id.textview_about);
-		_drawer_imageview11 = (ImageView) _nav_view.findViewById(R.id.imageview11);
-		_drawer_textview_report = (TextView) _nav_view.findViewById(R.id.textview_report);
-		_drawer_imageview12 = (ImageView) _nav_view.findViewById(R.id.imageview12);
-		_drawer_textview_guide = (TextView) _nav_view.findViewById(R.id.textview_guide);
-		_drawer_imageview17 = (ImageView) _nav_view.findViewById(R.id.imageview17);
-		_drawer_textview_exit = (TextView) _nav_view.findViewById(R.id.textview_exit);
-		_drawer_textview_follow = (TextView) _nav_view.findViewById(R.id.textview_follow);
-		_drawer_linear17 = (LinearLayout) _nav_view.findViewById(R.id.linear17);
-		_drawer_linear18 = (LinearLayout) _nav_view.findViewById(R.id.linear18);
 		_drawer_imageview14 = (ImageView) _nav_view.findViewById(R.id.imageview14);
 		_drawer_imageview15 = (ImageView) _nav_view.findViewById(R.id.imageview15);
 		_drawer_imageview16 = (ImageView) _nav_view.findViewById(R.id.imageview16);
-		_drawer_textview1 = (TextView) _nav_view.findViewById(R.id.textview1);
 		net = new RequestNetwork(this);
-		dialog = new AlertDialog.Builder(this);
 		auth = FirebaseAuth.getInstance();
 		tme = getSharedPreferences("tme", Activity.MODE_PRIVATE);
+
+		MobileAds.initialize(getApplicationContext(), new OnInitializationCompleteListener() {
+			@SuppressLint("VisibleForTests")
+			@Override
+			public void onInitializationComplete(@NonNull InitializationStatus initializationStatus) {
+				adview3.loadAd(new AdRequest.Builder().build());
+				adview3.setAdListener(new AdListener() {
+					@Override
+					public void onAdLoaded() {
+						super.onAdLoaded();
+					}
+					@Override
+					public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
+						super.onAdFailedToLoad(loadAdError);
+					}
+				});
+
+
+			}
+		});
 		
 		imageview1.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -413,22 +355,22 @@ public class HomeActivity extends AppCompatActivity {
 			@RequiresApi(api = Build.VERSION_CODES.M)
 			@Override
 			public void onClick(View _view) {
-//				try{
-//					android.net.ConnectivityManager cm = (android.net.ConnectivityManager) AdshowActivity.this.getSystemService(android.content.Context.CONNECTIVITY_SERVICE);
-//
-//					Network activeNetwork = cm.getActiveNetwork();
-//					NetworkCapabilities caps = cm.getNetworkCapabilities(activeNetwork);
-//
-//					vpnInUse = caps.hasTransport(NetworkCapabilities.TRANSPORT_VPN);
-//				}catch(Exception e){
-//					showMessage(e.toString());
-//				}
-				/*if (vpnInUse) {
-					inter = new InterstitialAd(getApplicationContext());
-					inter.setAdListener(_inter_ad_listener);
+				try{
+					android.net.ConnectivityManager cm = (android.net.ConnectivityManager) HomeActivity.this.getSystemService(android.content.Context.CONNECTIVITY_SERVICE);
+
+					Network activeNetwork = cm.getActiveNetwork();
+					NetworkCapabilities caps = cm.getNetworkCapabilities(activeNetwork);
+
+					vpnInUse = caps.hasTransport(NetworkCapabilities.TRANSPORT_VPN);
+				}catch(Exception e){
+					SketchwareUtil.showMessage( getApplicationContext(),"No Internet");
+				}
+			if (vpnInUse) {
+					//inter = new InterstitialAd(HomeActivity.this);
+					/*inter.setAdListener(_inter_ad_listener);
 					inter.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
 					inter.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-					.build());
+					.build());*/
 					_loadingdialog(true, "Ad loading...");
 					if (limit == (click + 1)) {
 						if (time.equals("")) {
@@ -455,11 +397,55 @@ public class HomeActivity extends AppCompatActivity {
 					}
 				}
 				else {
-					inter = new InterstitialAd(getApplicationContext());
+					inter = new InterstitialAd() {
+						@Nullable
+						@Override
+						public FullScreenContentCallback getFullScreenContentCallback() {
+							return null;
+						}
+
+						@Nullable
+						@Override
+						public OnPaidEventListener getOnPaidEventListener() {
+							return null;
+						}
+
+						@NonNull
+						@Override
+						public ResponseInfo getResponseInfo() {
+							return null;
+						}
+
+						@NonNull
+						@Override
+						public String getAdUnitId() {
+							return null;
+						}
+
+						@Override
+						public void setFullScreenContentCallback(@Nullable FullScreenContentCallback fullScreenContentCallback) {
+
+						}
+
+						@Override
+						public void setImmersiveMode(boolean b) {
+
+						}
+
+						@Override
+						public void setOnPaidEventListener(@Nullable OnPaidEventListener onPaidEventListener) {
+
+						}
+
+						@Override
+						public void show(@NonNull Activity activity) {
+
+						}
+					};/*
 					inter.setAdListener(_inter_ad_listener);
 					inter.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
 					inter.loadAd(new AdRequest.Builder().addTestDevice("708001022B2AEFB4CA5DB3785F35FD14")
-							.build());
+							.build());*/
 					_loadingdialog(true, "Ad loading...");
 					if (limit == (click + 1)) {
 						if (time.equals("")) {
@@ -485,7 +471,7 @@ public class HomeActivity extends AppCompatActivity {
 						}
 					}
 					SketchwareUtil.showMessage(getApplicationContext(), "No VPN CONNECTION");
-				}*/
+				}
 			}
 		});
 
@@ -525,9 +511,6 @@ public class HomeActivity extends AppCompatActivity {
 		_net_request_listener = new RequestNetwork.RequestListener() {
 			@Override
 			public void onResponse(String _param1, String _param2, HashMap<String, Object> _param3) {
-				final String _tag = _param1;
-				final String _response = _param2;
-				final HashMap<String, Object> _responseHeaders = _param3;
 				
 			}
 			
@@ -762,28 +745,17 @@ public class HomeActivity extends AppCompatActivity {
 			}
 			
 			@Override
-			public void onChildMoved(DataSnapshot _param1, String _param2) {
-				
-			}
+			public void onChildMoved(DataSnapshot _param1, String _param2) {}
 			
 			@Override
-			public void onChildRemoved(DataSnapshot _param1) {
-				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
-				final String _childKey = _param1.getKey();
-				final HashMap<String, Object> _childValue = _param1.getValue(_ind);
-				
-			}
+			public void onChildRemoved(DataSnapshot _param1) {}
 			
 			@Override
-			public void onCancelled(DatabaseError _param1) {
-				final int _errorCode = _param1.getCode();
-				final String _errorMessage = _param1.getMessage();
-				
-			}
+			public void onCancelled(DatabaseError _param1) {}
 		};
 		users.addChildEventListener(_users_child_listener);
 		
-		_sponsor_child_listener = new ChildEventListener() {
+	/*	_sponsor_child_listener = new ChildEventListener() {
 			@Override
 			public void onChildAdded(DataSnapshot _param1, String _param2) {
 				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
@@ -913,115 +885,108 @@ public class HomeActivity extends AppCompatActivity {
 				final String _errorMessage = _param1.getMessage();
 				
 			}
-		};
-		sponsor.addChildEventListener(_sponsor_child_listener);
-		
-		_control_child_listener = new ChildEventListener() {
-			@Override
-			public void onChildAdded(DataSnapshot _param1, String _param2) {
-				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
-				final String _childKey = _param1.getKey();
-				final HashMap<String, Object> _childValue = _param1.getValue(_ind);
-				if (_childValue.get("control").toString().equals("disable")) {
-					final AlertDialog dialog2 = new AlertDialog.Builder(HomeActivity.this).create();
-					View inflate = getLayoutInflater().inflate(R.layout.custom,null); 
-					dialog2.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
-					dialog2.setView(inflate);
-					TextView t1 = (TextView) inflate.findViewById(R.id.t1);
-					
-					TextView t2 = (TextView) inflate.findViewById(R.id.t2);
-					
-					LinearLayout b2 = (LinearLayout) inflate.findViewById(R.id.b2);
-					
-					ImageView i1 = (ImageView) inflate.findViewById(R.id.i1);
-					
-					LinearLayout bg = (LinearLayout) inflate.findViewById(R.id.bg);
-					
-					TextView t3 = (TextView)
-					inflate.findViewById(R.id.t3);
-					t1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.NORMAL);
-					t2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-					t3.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
-					t2.setTextColor(0xFF3F51B5);
-					i1.setImageResource(R.drawable.img);
-					t1.setText("Temporary Closed");
-					t2.setText("But, Will Be Back Soon");
-					t3.setText("Exit");
-					_rippleRoundStroke(bg, "#B7D4D8", "#000000", 15, 0, "#000000");
-					b2.setOnClickListener(new View.OnClickListener() {
-						@Override
-						public void onClick(View _view) {
-							finishAffinity();
-						}
-					});
-					dialog2.setCancelable(false);
-					dialog2.show();
-				}
-			}
-			
-			@Override
-			public void onChildChanged(DataSnapshot _param1, String _param2) {
-				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
-				final String _childKey = _param1.getKey();
-				final HashMap<String, Object> _childValue = _param1.getValue(_ind);
-				if (_childValue.get("control").toString().equals("disable")) {
-					final AlertDialog dialog2 = new AlertDialog.Builder(HomeActivity.this).create();
-					View inflate = getLayoutInflater().inflate(R.layout.custom,null); 
-					dialog2.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
-					dialog2.setView(inflate);
-					TextView t1 = (TextView) inflate.findViewById(R.id.t1);
-					
-					TextView t2 = (TextView) inflate.findViewById(R.id.t2);
-					
-					LinearLayout b2 = (LinearLayout) inflate.findViewById(R.id.b2);
-					
-					ImageView i1 = (ImageView) inflate.findViewById(R.id.i1);
-					
-					LinearLayout bg = (LinearLayout) inflate.findViewById(R.id.bg);
-					
-					TextView t3 = (TextView)
-					inflate.findViewById(R.id.t3);
-					t1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/productsans_bold.ttf"), Typeface.BOLD);
-					t2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-					t3.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
-					t2.setTextColor(0xFF3F51B5);
-					i1.setImageResource(R.drawable.img);
-					t1.setText("Temporary Closed");
-					t2.setText("But, Will Be Back Soon");
-					t3.setText("Exit");
-					_rippleRoundStroke(bg, "#B7D4D8", "#000000", 15, 0, "#000000");
-					b2.setOnClickListener(new View.OnClickListener() {
-						@Override
-						public void onClick(View _view) {
-							finishAffinity();
-						}
-					});
-					dialog2.setCancelable(false);
-					dialog2.show();
-				}
-			}
-			
-			@Override
-			public void onChildMoved(DataSnapshot _param1, String _param2) {
-				
-			}
-			
-			@Override
-			public void onChildRemoved(DataSnapshot _param1) {
-				GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
-				final String _childKey = _param1.getKey();
-				final HashMap<String, Object> _childValue = _param1.getValue(_ind);
-				
-			}
-			
-			@Override
-			public void onCancelled(DatabaseError _param1) {
-				final int _errorCode = _param1.getCode();
-				final String _errorMessage = _param1.getMessage();
-				
-			}
-		};
-		control.addChildEventListener(_control_child_listener);
+		};*/
+	//	sponsor.addChildEventListener(_sponsor_child_listener);
+
+		control.addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot _param1, String _param2) {
+                GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
+                final String _childKey = _param1.getKey();
+                final HashMap<String, Object> _childValue = _param1.getValue(_ind);
+                if (_childValue.get("control").toString().equals("disable")) {
+                    final AlertDialog dialog2 = new AlertDialog.Builder(HomeActivity.this).create();
+                    View inflate = getLayoutInflater().inflate(R.layout.custom,null);
+                    dialog2.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+                    dialog2.setView(inflate);
+                    TextView t1 = (TextView) inflate.findViewById(R.id.t1);
+
+                    TextView t2 = (TextView) inflate.findViewById(R.id.t2);
+
+                    LinearLayout b2 = (LinearLayout) inflate.findViewById(R.id.b2);
+
+                    ImageView i1 = (ImageView) inflate.findViewById(R.id.i1);
+
+                    LinearLayout bg = (LinearLayout) inflate.findViewById(R.id.bg);
+
+                    TextView t3 = (TextView)
+                            inflate.findViewById(R.id.t3);
+                    t2.setTextColor(0xFF3F51B5);
+                    i1.setImageResource(R.drawable.img);
+                    t1.setText("Temporary Closed");
+                    t2.setText("But, Will Be Back Soon");
+                    t3.setText("Exit");
+                    _rippleRoundStroke(bg, "#B7D4D8", "#000000", 15, 0, "#000000");
+                    b2.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View _view) {
+                            finishAffinity();
+                        }
+                    });
+                    dialog2.setCancelable(false);
+                    dialog2.show();
+                }
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot _param1, String _param2) {
+                GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
+                final String _childKey = _param1.getKey();
+                final HashMap<String, Object> _childValue = _param1.getValue(_ind);
+                if (_childValue.get("control").toString().equals("disable")) {
+                    final AlertDialog dialog2 = new AlertDialog.Builder(HomeActivity.this).create();
+                    View inflate = getLayoutInflater().inflate(R.layout.custom,null);
+                    dialog2.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+                    dialog2.setView(inflate);
+                    TextView t1 = (TextView) inflate.findViewById(R.id.t1);
+
+                    TextView t2 = (TextView) inflate.findViewById(R.id.t2);
+
+                    LinearLayout b2 = (LinearLayout) inflate.findViewById(R.id.b2);
+
+                    ImageView i1 = (ImageView) inflate.findViewById(R.id.i1);
+
+                    LinearLayout bg = (LinearLayout) inflate.findViewById(R.id.bg);
+
+                    TextView t3 = (TextView)
+                            inflate.findViewById(R.id.t3);
+                    t2.setTextColor(0xFF3F51B5);
+                    i1.setImageResource(R.drawable.img);
+                    t1.setText("Temporary Closed");
+                    t2.setText("But, Will Be Back Soon");
+                    t3.setText("Exit");
+                    _rippleRoundStroke(bg, "#B7D4D8", "#000000", 15, 0, "#000000");
+                    b2.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View _view) {
+                            finishAffinity();
+                        }
+                    });
+                    dialog2.setCancelable(false);
+                    dialog2.show();
+                }
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot _param1, String _param2) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot _param1) {
+                GenericTypeIndicator<HashMap<String, Object>> _ind = new GenericTypeIndicator<HashMap<String, Object>>() {};
+                final String _childKey = _param1.getKey();
+                final HashMap<String, Object> _childValue = _param1.getValue(_ind);
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError _param1) {
+                final int _errorCode = _param1.getCode();
+                final String _errorMessage = _param1.getMessage();
+
+            }
+        });
 		
 		_claimed_time_child_listener = new ChildEventListener() {
 			@Override
@@ -1240,7 +1205,7 @@ public class HomeActivity extends AppCompatActivity {
 		_drawer_share.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
-				_shareText("Hey! You want to make money from online? KingEarn is best platform. I am using this. You can join with us. Click here: https://codecanyon.net/user/kingitlimited/portfolio");
+				_shareText("Hey! You want to make money from online? KingEarn is best platform. I am using this. You can join with us. Click here: https://codecanyon.net/user//portfolio");
 			}
 		});
 		
@@ -1323,96 +1288,6 @@ public class HomeActivity extends AppCompatActivity {
 				_drawer.closeDrawer(GravityCompat.START);
 			}
 		});
-		
-		auth_updateEmailListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_updatePasswordListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_emailVerificationSentListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_deleteUserListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_phoneAuthListener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> task){
-				final boolean _success = task.isSuccessful();
-				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_updateProfileListener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		auth_googleSignInListener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> task){
-				final boolean _success = task.isSuccessful();
-				final String _errorMessage = task.getException() != null ? task.getException().getMessage() : "";
-				
-			}
-		};
-		
-		_auth_create_user_listener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		_auth_sign_in_listener = new OnCompleteListener<AuthResult>() {
-			@Override
-			public void onComplete(Task<AuthResult> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				final String _errorMessage = _param1.getException() != null ? _param1.getException().getMessage() : "";
-				
-			}
-		};
-		
-		_auth_reset_password_listener = new OnCompleteListener<Void>() {
-			@Override
-			public void onComplete(Task<Void> _param1) {
-				final boolean _success = _param1.isSuccessful();
-				
-			}
-		};
-		
 		_inter_ad_listener = new AdListener() {
 			@Override
 			public void onAdLoaded() {
@@ -1500,11 +1375,7 @@ public class HomeActivity extends AppCompatActivity {
 	@Override
 	protected void onActivityResult(int _requestCode, int _resultCode, Intent _data) {
 		super.onActivityResult(_requestCode, _resultCode, _data);
-		switch (_requestCode) {
-			
-			default:
-			break;
-		}
+
 	}
 	
 	@Override
@@ -1515,10 +1386,10 @@ public class HomeActivity extends AppCompatActivity {
 	
 	@Override
 	public void onBackPressed() {
+		super.onBackPressed();
 		if (_drawer.isDrawerOpen(GravityCompat.START)) {
 			_drawer.closeDrawer(GravityCompat.START);
-		}
-		else {
+		} else {
 			_ShowDialogTrue("Leave!", "Are you sure want to leave this app?", "No", "Yes");
 		}
 	}
@@ -1538,15 +1409,7 @@ public class HomeActivity extends AppCompatActivity {
 	public void _networkCheck () {
 		net.startRequestNetwork(RequestNetworkController.GET, "https://google.com", "a", _net_request_listener);
 	}
-	
-	
-	public void _Shadow (final double _sadw, final double _cru, final String _wc, final View _widgets) {
-		android.graphics.drawable.GradientDrawable wd = new android.graphics.drawable.GradientDrawable();
-		wd.setColor(Color.parseColor(_wc));
-		wd.setCornerRadius((int)_cru);
-		_widgets.setElevation((int)_sadw);
-		_widgets.setBackground(wd);
-	}
+
 	
 	
 	public void _gradientview (final View _view) {
@@ -1559,47 +1422,7 @@ public class HomeActivity extends AppCompatActivity {
 		_view.setBackgroundDrawable(gd);
 	}
 	
-	
-	public void _draweritem () {
-		_drawer_vscroll1.setVerticalScrollBarEnabled(false);
-		_drawer_imageview_avatar.setVisibility(View.GONE);
-		_Shadow(8, 0, "#F47F3C", _drawer_linear2);
-		_Shadow(3, 0, "#FFFFFF", _drawer_home);
-		_Shadow(3, 0, "#FFFFFF", _drawer_profile);
-		_Shadow(3, 0, "#FFFFFF", _drawer_membership);
-		_Shadow(3, 0, "#FFFFFF", _drawer_rateus);
-		_Shadow(3, 0, "#FFFFFF", _drawer_share);
-		_Shadow(3, 0, "#FFFFFF", _drawer_privacy);
-		_Shadow(3, 0, "#FFFFFF", _drawer_about);
-		_Shadow(3, 0, "#FFFFFF", _drawer_report);
-		_Shadow(3, 0, "#FFFFFF", _drawer_guide);
-		_Shadow(3, 0, "#FFFFFF", _drawer_exit);
-		_drawer_linear3.setBackground(new GradientDrawable() { public GradientDrawable getIns(int a, int b, int c, int d) { this.setCornerRadius(a); this.setStroke(b, c); this.setColor(d); return this; } }.getIns((int)360, (int)0, 0xFFFFFFFF, 0xFFFBAA37));
-		_drawer_imageview_avatar.setBackground(new GradientDrawable() { public GradientDrawable getIns(int a, int b, int c, int d) { this.setCornerRadius(a); this.setStroke(b, c); this.setColor(d); return this; } }.getIns((int)360, (int)0, 0xFFFFFFFF, Color.TRANSPARENT));
-		_drawer_textview_name.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
-		_drawer_textview_home.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_profile.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_membership.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_rateus.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_share.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_privacy.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_about.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_report.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_guide.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_exit.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_drawer_textview_follow.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/calculator.ttf"), Typeface.NORMAL);
-		_drawer_textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/google_sans.ttf"), Typeface.NORMAL);
-		_ICC(_drawer_imageview3, "#616161", "#616161");
-		_ICC(_drawer_imageview5, "#616161", "#616161");
-		_ICC(_drawer_imageview6, "#616161", "#616161");
-		_ICC(_drawer_imageview8, "#616161", "#616161");
-		_ICC(_drawer_imageview9, "#616161", "#616161");
-		_ICC(_drawer_imageview10, "#616161", "#616161");
-		_ICC(_drawer_imageview11, "#616161", "#616161");
-		_ICC(_drawer_imageview12, "#616161", "#616161");
-		_ICC(_drawer_imageview13, "#616161", "#616161");
-		_ICC(_drawer_imageview17, "#616161", "#616161");
-	}
+
 	
 	
 	public void _rippleRoundStroke (final View _view, final String _focus, final String _pressed, final double _round, final double _stroke, final String _strokeclr) {
@@ -1713,10 +1536,6 @@ public class HomeActivity extends AppCompatActivity {
 		TextView negative = (TextView) inflate.findViewById(R.id.textview4);
 		ImageView img = (ImageView) inflate.findViewById(R.id.img);
 		_CardView("#FF111A21", 10, 15, main);
-		title.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
-		description.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/regular.ttf"), Typeface.NORMAL);
-		positive.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
-		negative.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/semi.ttf"), Typeface.NORMAL);
 		title.setText(_title);
 		description.setText(_description);
 		positive.setText(_positive);
@@ -1740,9 +1559,7 @@ public class HomeActivity extends AppCompatActivity {
 	}
 	
 	
-	public void _ICC (final ImageView _img, final String _c1, final String _c2) {
-		_img.setImageTintList(new android.content.res.ColorStateList(new int[][] {{-android.R.attr.state_pressed},{android.R.attr.state_pressed}},new int[]{Color.parseColor(_c1), Color.parseColor(_c2)}));
-	}
+
 	
 	
 	public void _MarqueeText (final TextView _view, final String _text) {
@@ -1750,22 +1567,6 @@ public class HomeActivity extends AppCompatActivity {
 		_view.setSingleLine(true);
 		_view.setEllipsize(TextUtils.TruncateAt.MARQUEE);
 		_view.setSelected(true);
-	}
-	
-	
-	public void _ui () {
-		textview6.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
-		textview7.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
-		textview8.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
-		textview15.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
-		textview16.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
-		textview17.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
-		_GradientDrawable(daily_bonus, 20, 0, 05, "#FFFFFF", "#F47F3C", true, true, 300);
-		_GradientDrawable(quick_quiz, 20, 0, 05, "#FFFFFF", "#F47F3C", true, true, 300);
-		_GradientDrawable(website_visit, 20, 0, 05, "#FFFFFF", "#F47F3C", true, true, 300);
-		_GradientDrawable(hist, 20, 0, 05, "#FFFFFF", "#F47F3C", true, true, 300);
-		_GradientDrawable(support, 20, 0, 05, "#FFFFFF", "#F47F3C", true, true, 300);
-		_GradientDrawable(others, 20, 0, 05, "#FFFFFF", "#F47F3C", true, true, 300);
 	}
 	
 	
@@ -2025,27 +1826,27 @@ public class HomeActivity extends AppCompatActivity {
 	public void showMessage(String _s) {
 		Toast.makeText(getApplicationContext(), _s, Toast.LENGTH_SHORT).show();
 	}
-	
+
 	@Deprecated
 	public int getLocationX(View _v) {
 		int _location[] = new int[2];
 		_v.getLocationInWindow(_location);
 		return _location[0];
 	}
-	
+
 	@Deprecated
 	public int getLocationY(View _v) {
 		int _location[] = new int[2];
 		_v.getLocationInWindow(_location);
 		return _location[1];
 	}
-	
+
 	@Deprecated
 	public int getRandom(int _min, int _max) {
 		Random random = new Random();
 		return random.nextInt(_max - _min + 1) + _min;
 	}
-	
+
 	@Deprecated
 	public ArrayList<Double> getCheckedItemPositionsToArray(ListView _list) {
 		ArrayList<Double> _result = new ArrayList<Double>();
@@ -2057,17 +1858,17 @@ public class HomeActivity extends AppCompatActivity {
 		}
 		return _result;
 	}
-	
+
 	@Deprecated
 	public float getDip(int _input) {
 		return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, _input, getResources().getDisplayMetrics());
 	}
-	
+
 	@Deprecated
 	public int getDisplayWidthPixels() {
 		return getResources().getDisplayMetrics().widthPixels;
 	}
-	
+
 	@Deprecated
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;

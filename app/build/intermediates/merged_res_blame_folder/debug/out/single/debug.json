@@ -1,410 +1,410 @@
 [
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_cropimage.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\cropimage.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_onlinesupport.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/onlinesupport.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\card.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_default_image.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/default_image.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_check.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/check.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_7_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_7_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom_spinner.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/custom_spinner.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_8_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_8_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_noti.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/noti.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_membership.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\membership.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus_ads.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/cus_ads.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_social_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\social_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_3.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_3.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_announced.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\announced.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_dialog.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/dialog.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_noti.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\noti.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_more_logo.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/more_logo.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_card_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/card_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resource_3.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\resource_3.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_3.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_3.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\exit.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_3.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_3.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_web.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/web.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_icon.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\app_icon.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_4.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_4.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_withdraw__2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\withdraw__2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_card_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/card_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_exit.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\exit.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_empty.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/empty.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wallet.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\wallet.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_more.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/more.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_9.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_9.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_social_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\social_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom10.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/custom10.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resource_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\resource_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_app_icon_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/app_icon_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_7_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_7_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resource_5.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\resource_5.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_8_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_8_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_withdraw_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\withdraw_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.kingearnuser.app-pngs-40:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_help.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\menu_help.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_social_3.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/social_3.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_membership.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/membership.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_8_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_8_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_8.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_8.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_home.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/home.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_7_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_7_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_progress.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/progress.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_web2.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\web2.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_hist.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/hist.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_image.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\default_image.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_7_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_7_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_money_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\money_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_login.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/login.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_check.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\check.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_app_icon.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/app_icon.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_cus_ad.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\cus_ad.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_8_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_8_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_load_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\load_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus2.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/cus2.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_onlinesupport.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\onlinesupport.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_9.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_9.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout__drawer_home.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/_drawer_home.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_black.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\ic_menu_black.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_wallet.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/wallet.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_cus_ads.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\cus_ads.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_dialog2.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/dialog2.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\exit_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_arrow_drop_down_black.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_arrow_drop_down_black.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_icon_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\app_icon_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_6.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_6.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_drop_down_black.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down_black.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_social_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/social_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_exit.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/exit.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_empty.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\empty.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_exit_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/exit_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_withdraw__1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\withdraw__1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_load_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/load_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\card_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unlock.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\unlock.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_party_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/party_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_diamond.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\diamond.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_more_logo.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\more_logo.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus_quiz.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/cus_quiz.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_start.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\start.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trophy.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\trophy.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_shutdown.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/shutdown.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_6.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_6.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_profile.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/profile.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog2.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\dialog2.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_spinner.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\custom_spinner.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_adb.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/adb.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_layers.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\layers.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_cus_quiz.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\cus_quiz.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_replay_white.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_replay_white.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_clear_white.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\ic_clear_white.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_circle_progress.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/circle_progress.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shutdown.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\shutdown.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_6.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_6.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_trophy.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/trophy.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_wallet.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\wallet.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_announced.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/announced.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resource_6.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\resource_6.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_quiz.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/quiz.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_withdraw_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\withdraw_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_history.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/history.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout__drawer_home.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\_drawer_home.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_money_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/money_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_money_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\money_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_money_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/money_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_5.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_5.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw__1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw__1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\profile.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_clear_white.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_clear_white.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_menu_black.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_menu_black.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_history.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\history.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_replay_white.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\ic_replay_white.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom5.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\custom5.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_8.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_8.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_login.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\login.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_5.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_5.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\custom.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cropimage.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/cropimage.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_notification.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/notification.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_cus2.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\cus2.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom5.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/custom5.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_web2.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/web2.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\progress.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_social_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/social_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_more.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\more.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_5.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_5.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_web.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\web.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom10.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\custom10.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_dialog3.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/dialog3.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exit_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\exit_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_hist.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\hist.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_home.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\home.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_menu_help.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/menu_help.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_adb.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\adb.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw__2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw__2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_neterror.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/neterror.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_progress.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\circle_progress.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/custom.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\card_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_img.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/img.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_social_3.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\social_3.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_exit_1.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/exit_1.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog3.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\dialog3.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_main.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/main.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\main.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_card.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/card.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_4.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_4.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resource_1.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\resource_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_diamond.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/diamond.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_unlock.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/unlock.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\img.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_party_2.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\party_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_2.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_2.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_neterror.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\neterror.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_wallet.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/wallet.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resource_4.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\resource_4.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_start.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/start.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\dialog.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_layers.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/layers.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\notification.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\layout_quiz.xml.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\layout\\quiz.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_exit.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/exit.png"
     },
     {
-        "merged": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_4.png.flat",
-        "source": "E:\\kunal\\kingearnuser\\app\\src\\main\\res\\drawable\\icon_4.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus_ad.xml.flat",
+        "source": "com.example.kingearnuser.app-main-48:/layout/cus_ad.xml"
     }
 ]

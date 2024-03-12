@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\kunal\\kingearnuser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "com.example.kingearnuser.app-mergeDebugResources-44:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\192592780d2dfdf8aa07cfcc36366cfb\\transformed\\appcompat-1.2.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\b6fb455687783565282e05052f758fd1\\transformed\\appcompat-1.6.1\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\48568fed83f2f382fe15e7ae7a25c00a\\transformed\\core-1.6.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\27adc17b3bcef5f9424dad5f32240190\\transformed\\core-1.9.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\dfb10b554732cbebf1d0d93751ff3ed6\\transformed\\browser-1.4.0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\caches\\transforms-3\\6e1aebc0dcde1ea7aae9869dc2a354c9\\transformed\\browser-1.4.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
