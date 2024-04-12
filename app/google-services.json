@@ -1,14 +1,33 @@
 {
   "project_info": {
-    "project_number": "203357728651",
-    "firebase_url": "https://earningapp-99ed7-default-rtdb.firebaseio.com",
-    "project_id": "earningapp-99ed7",
-    "storage_bucket": "earningapp-99ed7.appspot.com"
+    "project_number": "999532478862",
+    "firebase_url": "https://adminearningapp-default-rtdb.firebaseio.com",
+    "project_id": "adminearningapp",
+    "storage_bucket": "adminearningapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:203357728651:android:ffe57ca1ea869d57dd898e",
+        "mobilesdk_app_id": "1:999532478862:android:9ee949ae73c589d3f2e4df",
+        "android_client_info": {
+          "package_name": "com.example.kingearnadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBartQJ455iLyF8Byn9XuoYFC5qpYi7giU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999532478862:android:ca4064d7c77dbd64f2e4df",
         "android_client_info": {
           "package_name": "com.example.kingearnuser"
         }
@@ -16,7 +35,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAZWVyjf9ntrjnVS-tH_ZIPedKHwhLlr3o"
+          "current_key": "AIzaSyBartQJ455iLyF8Byn9XuoYFC5qpYi7giU"
         }
       ],
       "services": {

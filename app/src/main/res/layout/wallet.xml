@@ -103,14 +103,15 @@
 						android:layout_marginLeft="45dp"
 						android:textSize="18sp"
 						android:textColor="#FFFFFF" />
+
 					<TextView
 						android:id="@+id/textview3"
 						android:layout_width="wrap_content"
 						android:layout_height="wrap_content"
 						android:layout_marginLeft="45dp"
 						android:layout_marginTop="5dp"
-						android:textSize="16sp"
-						android:textColor="#FFFFFF" />
+						android:textColor="#FFFFFF"
+						android:textSize="16sp" />
 				</LinearLayout>
 				<LinearLayout
 					android:id="@+id/linear9"
@@ -134,7 +135,7 @@
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginLeft="20dp"
-					android:text="💎 1000 = 💰 10"
+					android:text="💎 500 = 💰 10"
 					android:textSize="16sp"
 					android:textColor="#000000" />
 			</LinearLayout>
@@ -151,7 +152,7 @@
 				android:layout_height="wrap_content"
 				android:layout_marginLeft="20dp"
 				android:layout_marginTop="3dp"
-				android:text="Minimum withdraw 50 USD"
+				android:text="Minimum withdraw 50 ₹"
 				android:textSize="12sp"
 				android:textColor="#E57373" />
 			<EditText
@@ -184,10 +185,10 @@
 					android:gravity="center_horizontal|center_vertical"
 					android:orientation="vertical">
 					<ImageView
-						android:id="@+id/bkash"
+						android:id="@+id/paytm"
 						android:layout_width="40dp"
 						android:layout_height="40dp"
-						android:src="@drawable/withdraw_1"
+						android:src="@drawable/paytm"
 						android:scaleType="fitCenter" />
 				</LinearLayout>
 				<LinearLayout
@@ -201,10 +202,10 @@
 					android:gravity="center_horizontal|center_vertical"
 					android:orientation="vertical">
 					<ImageView
-						android:id="@+id/nagad"
+						android:id="@+id/gpay"
 						android:layout_width="40dp"
 						android:layout_height="40dp"
-						android:src="@drawable/withdraw__2"
+						android:src="@drawable/gpay"
 						android:scaleType="fitCenter" />
 				</LinearLayout>
 				<LinearLayout
@@ -218,10 +219,10 @@
 					android:gravity="center_horizontal|center_vertical"
 					android:orientation="vertical">
 					<ImageView
-						android:id="@+id/rocket"
+						android:id="@+id/phonepay"
 						android:layout_width="40dp"
 						android:layout_height="40dp"
-						android:src="@drawable/withdraw__1"
+						android:src="@drawable/phonepay"
 						android:scaleType="fitCenter" />
 				</LinearLayout>
 				<LinearLayout
@@ -235,10 +236,10 @@
 					android:gravity="center_horizontal|center_vertical"
 					android:orientation="vertical">
 					<ImageView
-						android:id="@+id/topup"
+						android:id="@+id/amezonpay"
 						android:layout_width="40dp"
 						android:layout_height="40dp"
-						android:src="@drawable/withdraw_2"
+						android:src="@drawable/amezonepay"
 						android:scaleType="fitCenter" />
 				</LinearLayout>
 			</LinearLayout>
@@ -257,8 +258,9 @@
 					android:layout_marginBottom="10dp"
 					android:padding="8dp"
 					android:textSize="18sp"
+					android:maxLength="10"
 					android:textColor="#000000"
-					android:hint="Payment number"
+					android:hint="Payment Phone number"
 					android:textColorHint="#607D8B"
 					android:inputType="phone"
 					android:imeOptions="actionDone" />

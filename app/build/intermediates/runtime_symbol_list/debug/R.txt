@@ -2971,6 +2971,7 @@ int drawable adb 0x7f070078
 int drawable admob_close_button_black_circle_white_cross 0x7f070079
 int drawable admob_close_button_white_circle_black_cross 0x7f07007a
 int drawable admob_close_button_white_cross 0x7f07007b
+int drawable amezonepay 0x7f070137
 int drawable announced 0x7f07007c
 int drawable app_icon 0x7f07007d
 int drawable app_icon_2 0x7f07007e
@@ -3023,6 +3024,7 @@ int drawable exit_1 0x7f0700ac
 int drawable exit_2 0x7f0700ad
 int drawable googleg_disabled_color_18 0x7f0700ae
 int drawable googleg_standard_color_18 0x7f0700af
+int drawable gpay 0x7f070138
 int drawable ic_arrow_back_black_24 0x7f0700b0
 int drawable ic_arrow_drop_down_black 0x7f0700b1
 int drawable ic_clear_black_24 0x7f0700b2
@@ -3136,6 +3138,8 @@ int drawable offline_dialog_background 0x7f07011d
 int drawable offline_dialog_default_icon_42dp 0x7f07011e
 int drawable onlinesupport 0x7f07011f
 int drawable party_2 0x7f070120
+int drawable paytm 0x7f070139
+int drawable phonepay 0x7f07013a
 int drawable progress 0x7f070121
 int drawable resource_1 0x7f070122
 int drawable resource_2 0x7f070123
@@ -3153,6 +3157,7 @@ int drawable tooltip_frame_light 0x7f07012e
 int drawable trophy 0x7f07012f
 int drawable unlock 0x7f070130
 int drawable wallet 0x7f070131
+int drawable web 0x7f070136
 int drawable withdraw_1 0x7f070132
 int drawable withdraw_2 0x7f070133
 int drawable withdraw__1 0x7f070134
@@ -3243,6 +3248,7 @@ int id aligned 0x7f080052
 int id all 0x7f080053
 int id allback 0x7f080054
 int id always 0x7f080055
+int id amezonpay 0x7f080288
 int id amount 0x7f080056
 int id animateToEnd 0x7f080057
 int id animateToStart 0x7f080058
@@ -3393,6 +3399,7 @@ int id fullscreen_header 0x7f0800e8
 int id ghost_view 0x7f0800e9
 int id ghost_view_holder 0x7f0800ea
 int id gone 0x7f0800eb
+int id gpay 0x7f080289
 int id graph 0x7f0800ec
 int id graph_wrap 0x7f0800ed
 int id group_divider 0x7f0800ee
@@ -3590,8 +3597,10 @@ int id parent_matrix 0x7f0801ad
 int id password_toggle 0x7f0801ae
 int id path 0x7f0801af
 int id pathRelative 0x7f0801b0
+int id paytm 0x7f08028a
 int id peekHeight 0x7f0801b1
 int id percent 0x7f0801b2
+int id phonepay 0x7f08028b
 int id pin 0x7f0801b3
 int id position 0x7f0801b4
 int id postLayout 0x7f0801b5
@@ -3770,7 +3779,6 @@ int id toggle 0x7f080261
 int id top 0x7f080262
 int id topPanel 0x7f080263
 int id top_to_bottom 0x7f080264
-int id topup 0x7f080265
 int id touch_outside 0x7f080266
 int id transitionToEnd 0x7f080267
 int id transitionToStart 0x7f080268
@@ -7248,5 +7256,5 @@ int[] styleable ViewStubCompat { 0x010100d0, 0x010100f2, 0x010100f3 }
 int styleable ViewStubCompat_android_id 0
 int styleable ViewStubCompat_android_layout 1
 int styleable ViewStubCompat_android_inflatedId 2
-int xml gma_ad_services_config 0x7f140000
-int xml image_share_filepaths 0x7f140001
+int xml gma_ad_services_config 0x7f140001
+int xml image_share_filepaths 0x7f140002

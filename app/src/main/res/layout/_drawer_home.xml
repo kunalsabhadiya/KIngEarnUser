@@ -371,10 +371,11 @@
 						android:layout_height="wrap_content"
 						android:padding="8dp"
 						android:gravity="center_horizontal|center_vertical"
-						android:text="KingEarn © 2022\nDeveloped by Kingilimited"
+						android:text="CoinWise Earn © 2024\nDeveloped by Kunal Sabhadiya\nSupported by NSV Inc."
 						android:textSize="12sp"
 						android:textColor="#000000" />
 				</LinearLayout>
+
 			</LinearLayout>
 		</LinearLayout>
 	</ScrollView>

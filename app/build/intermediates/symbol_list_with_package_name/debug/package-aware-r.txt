@@ -2972,6 +2972,7 @@ drawable adb
 drawable admob_close_button_black_circle_white_cross
 drawable admob_close_button_white_circle_black_cross
 drawable admob_close_button_white_cross
+drawable amezonepay
 drawable announced
 drawable app_icon
 drawable app_icon_2
@@ -3024,6 +3025,7 @@ drawable exit_1
 drawable exit_2
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gpay
 drawable ic_arrow_back_black_24
 drawable ic_arrow_drop_down_black
 drawable ic_clear_black_24
@@ -3137,6 +3139,8 @@ drawable offline_dialog_background
 drawable offline_dialog_default_icon_42dp
 drawable onlinesupport
 drawable party_2
+drawable paytm
+drawable phonepay
 drawable progress
 drawable resource_1
 drawable resource_2
@@ -3154,6 +3158,7 @@ drawable tooltip_frame_light
 drawable trophy
 drawable unlock
 drawable wallet
+drawable web
 drawable withdraw_1
 drawable withdraw_2
 drawable withdraw__1
@@ -3244,6 +3249,7 @@ id aligned
 id all
 id allback
 id always
+id amezonpay
 id amount
 id animateToEnd
 id animateToStart
@@ -3394,6 +3400,7 @@ id fullscreen_header
 id ghost_view
 id ghost_view_holder
 id gone
+id gpay
 id graph
 id graph_wrap
 id group_divider
@@ -3591,8 +3598,10 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id paytm
 id peekHeight
 id percent
+id phonepay
 id pin
 id position
 id postLayout
@@ -3771,7 +3780,6 @@ id toggle
 id top
 id topPanel
 id top_to_bottom
-id topup
 id touch_outside
 id transitionToEnd
 id transitionToStart

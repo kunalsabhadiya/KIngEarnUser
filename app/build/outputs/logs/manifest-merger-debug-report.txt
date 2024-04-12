@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\1380d9381315ffd9b8616eb1dbca1b85\transformed\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\6547d2eac92e1fcfb68a7be21babe65c\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\962af8f0d967dfdaeeace6f3a57cc329\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -82,31 +82,31 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\kunal.sabhadiya\.gradle\caches
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\1dfc6de7b7f7d35e41ae0bccb7006dfd\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\c50be854e7379e7205480932af6b154f\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\91810e8986e857d0cf1214c28b0144ef\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
 	package
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:4:5-39
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:1-163:12
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:1-166:12
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.BLUETOOTH_CONNECT
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:6:5-76
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:6:5-76
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:6:22-73
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:6:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:7:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\52e61556d6d7f74a3c1335042214a401\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:22:5-79
@@ -122,9 +122,9 @@ MERGED from [androidx.work:work-runtime:2.7.0] C:\Users\kunal.sabhadiya\.gradle\
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\e8f8ac90eb13004d85778c669208caa2\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\e8f8ac90eb13004d85778c669208caa2\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:8:5-67
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:8:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\52e61556d6d7f74a3c1335042214a401\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:23:5-67
@@ -138,33 +138,33 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\kunal.sabha
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\e8f8ac90eb13004d85778c669208caa2\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\e8f8ac90eb13004d85778c669208caa2\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:9:5-77
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:9:5-77
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:9:22-74
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:9:22-74
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:10:5-11:38
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:10:5-11:38
 	android:maxSdkVersion
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:11:9-35
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:12:5-14:40
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:12:5-14:40
 	android:maxSdkVersion
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:13:9-35
 	tools:ignore
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:14:9-37
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:12:22-78
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_NETWORK_CONDITIONS
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:15:5-16:47
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:15:5-16:47
 	tools:ignore
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:16:9-44
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:16:9-44
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:15:22-81
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:15:22-81
 application
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:19:5-161:19
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:19:5-164:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\6547d2eac92e1fcfb68a7be21babe65c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\6547d2eac92e1fcfb68a7be21babe65c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\c05bcc4343626c3bdf93757b22fbb2ea\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -224,233 +224,233 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kunal.sabhadiya\.g
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\d105d0fe103f7e103ad71446c7471d97\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\d105d0fe103f7e103ad71446c7471d97\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
 	android:requestLegacyExternalStorage
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:22:9-52
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:22:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\27adc17b3bcef5f9424dad5f32240190\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:21:9-41
 	android:largeHeap
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:24:9-33
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:24:9-33
 	android:icon
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:23:9-42
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:23:9-42
 	android:allowBackup
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:26:9-40
 	android:usesCleartextTraffic
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:25:9-44
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:25:9-44
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:27:9-29:70
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:27:9-29:70
 	android:value
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:29:13-67
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:29:13-67
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:28:13-69
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:28:13-69
 activity#com.example.kingearnuser.MainActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:30:5-41:16
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:33:9-44:16
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:36:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:39:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:33:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:36:9-43
 	android:exported
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:34:9-32
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:37:9-32
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:35:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:38:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:32:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:35:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:31:9-37
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:34:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:37:9-40:25
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:40:9-43:25
 action#android.intent.action.MAIN
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:38:13-65
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:41:13-65
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:38:21-62
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:41:21-62
 category#android.intent.category.LAUNCHER
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:39:13-73
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:42:13-73
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:39:23-70
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:42:23-70
 activity#com.example.kingearnuser.Activity.HomeActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:42:5-47:48
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:45:5-50:48
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:47:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:50:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:45:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:48:9-43
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:46:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:49:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:44:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:47:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:43:9-46
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:46:9-46
 activity#com.example.kingearnuser.Activity.NeterrorActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:48:5-54:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:51:5-57:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:53:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:56:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:51:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:54:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:54:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:57:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:52:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:55:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:50:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:53:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:49:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:52:9-50
 activity#com.example.kingearnuser.Activity.ProfileActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:55:5-61:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:58:5-64:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:60:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:63:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:58:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:61:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:61:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:64:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:59:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:62:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:57:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:60:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:56:9-49
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:59:9-49
 activity#com.example.kingearnuser.Activity.LoginActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:62:5-68:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:65:5-71:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:67:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:70:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:65:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:68:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:68:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:71:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:66:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:69:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:64:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:67:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:63:9-47
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:66:9-47
 activity#com.example.kingearnuser.Activity.StartActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:69:5-75:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:72:5-78:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:74:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:77:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:72:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:75:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:75:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:78:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:73:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:76:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:71:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:74:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:70:9-47
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:73:9-47
 activity#com.example.kingearnuser.Activity.WebActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:76:5-82:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:79:5-85:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:81:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:84:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:79:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:82:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:82:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:85:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:80:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:83:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:78:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:81:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:77:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:80:9-45
 activity#com.example.kingearnuser.Activity.MembershipActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:83:5-89:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:86:5-92:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:88:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:91:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:86:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:89:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:89:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:92:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:87:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:90:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:85:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:88:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:84:9-52
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:87:9-52
 activity#com.example.kingearnuser.Activity.CropimageActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:90:5-96:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:93:5-99:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:95:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:98:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:93:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:96:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:96:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:99:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:94:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:97:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:92:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:95:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:91:9-51
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:94:9-51
 activity#com.example.kingearnuser.Activity.WalletActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:97:5-103:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:100:5-106:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:102:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:105:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:100:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:103:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:103:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:106:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:101:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:104:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:99:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:102:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:98:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:101:9-48
 activity#com.example.kingearnuser.Activity.NotificationActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:104:5-110:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:107:5-113:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:109:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:112:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:107:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:110:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:110:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:113:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:108:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:111:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:106:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:109:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:105:9-54
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:108:9-54
 activity#com.example.kingearnuser.Activity.Web2Activity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:111:5-117:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:114:5-120:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:116:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:119:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:114:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:117:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:117:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:120:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:115:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:118:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:113:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:116:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:112:9-46
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:115:9-46
 activity#com.example.kingearnuser.Activity.HistoryActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:118:5-124:53
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:121:5-127:53
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:123:9-45
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:126:9-45
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:121:9-43
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:124:9-43
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:124:9-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:127:9-50
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:122:9-48
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:125:9-48
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:120:9-102
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:123:9-102
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:119:9-49
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:122:9-49
 activity#com.example.kingearnuser.Activity.QuizActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:125:9-131:57
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:128:9-134:57
 	android:screenOrientation
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:130:13-49
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:133:13-49
 	android:hardwareAccelerated
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:128:13-47
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:131:13-47
 	android:windowSoftInputMode
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:131:13-54
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:134:13-54
 	android:supportsPictureInPicture
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:129:13-52
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:132:13-52
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:127:13-106
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:130:13-106
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:126:13-50
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:129:13-50
 activity#com.google.android.gms.ads.AdActivity
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:132:5-135:60
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:135:5-138:60
 MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\f5dc2069e6a38fa713be970df835eea6\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:56:9-61:43
 MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\f5dc2069e6a38fa713be970df835eea6\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:56:9-61:43
 	android:exported
@@ -458,38 +458,38 @@ MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\kuna
 	tools:ignore
 		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\f5dc2069e6a38fa713be970df835eea6\transformed\jetified-play-services-ads-lite-23.0.0\AndroidManifest.xml:61:13-40
 	android:configChanges
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:134:9-118
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:137:9-118
 	android:theme
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:135:9-57
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:138:9-57
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:133:9-61
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:136:9-61
 meta-data#com.google.android.gms.version
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:136:5-138:65
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:139:5-141:65
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\638eb6445d35f054939684950c583903\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:18.2.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\638eb6445d35f054939684950c583903\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:138:9-62
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:141:9-62
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:137:9-54
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:140:9-54
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:139:5-144:47
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:142:5-147:47
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
 	android:authorities
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:141:9-63
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:144:9-63
 		REJECTED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
 	android:exported
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:142:9-33
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:145:9-33
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
 	tools:replace
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:144:9-44
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:147:9-44
 	android:initOrder
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:143:9-32
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:146:9-32
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:140:9-73
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:143:9-73
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:145:5-157:15
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:148:5-160:15
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\52e61556d6d7f74a3c1335042214a401\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:26:9-35:19
@@ -503,47 +503,47 @@ MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\kunal.sabh
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
 MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
 	android:exported
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:147:9-33
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:150:9-33
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:34:13-32
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\af9d860a39b0fce646b8eb1aba108295\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:146:9-80
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:149:9-80
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:148:9-150:81
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:151:9-153:81
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
 	android:value
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:150:13-78
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:153:13-78
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:149:13-105
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:152:13-105
 meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:151:9-153:81
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:154:9-156:81
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\52e61556d6d7f74a3c1335042214a401\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\52e61556d6d7f74a3c1335042214a401\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
 	android:value
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:153:13-78
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:156:13-78
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:152:13-105
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:155:13-105
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:154:9-156:81
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:157:9-159:81
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\bd8054bad7b773d40df21695efe62eec\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
 MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\bd8054bad7b773d40df21695efe62eec\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
 	android:value
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:156:13-78
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:159:13-78
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:155:13-103
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:158:13-103
 uses-library#org.apache.http.legacy
-ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:158:5-160:36
+ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:161:5-163:36
 	android:required
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:160:9-33
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:163:9-33
 	android:name
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml:159:9-46
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml:162:9-46
 uses-sdk
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\1380d9381315ffd9b8616eb1dbca1b85\transformed\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\1380d9381315ffd9b8616eb1dbca1b85\transformed\jetified-android-image-cropper-2.8.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\6547d2eac92e1fcfb68a7be21babe65c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
@@ -700,18 +700,18 @@ MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\kunal.sabhadiya\.gradle\cach
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\c50be854e7379e7205480932af6b154f\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\91810e8986e857d0cf1214c28b0144ef\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\91810e8986e857d0cf1214c28b0144ef\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-		ADDED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
-		INJECTED from E:\kunal\kingearnuser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\src\main\AndroidManifest.xml
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\38c37cfc8faa55217a24cf52a7c66e9b\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
 	android:excludeFromRecents

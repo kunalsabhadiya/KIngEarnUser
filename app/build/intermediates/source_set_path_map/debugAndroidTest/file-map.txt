@@ -1,0 +1,7 @@
+com.example.kingearnuser.test.app-jetified-core-1.5.0-0 C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\6d3b4f54b6d373384393d6310590c169\transformed\jetified-core-1.5.0\res
+com.example.kingearnuser.test.app-jetified-annotation-experimental-1.3.0-1 C:\Users\kunal.sabhadiya\.gradle\caches\transforms-3\91810e8986e857d0cf1214c28b0144ef\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.kingearnuser.test.app-androidTest-2 C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\build\generated\res\resValues\androidTest\debug
+com.example.kingearnuser.test.app-androidTest-3 C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\build\generated\res\rs\androidTest\debug
+com.example.kingearnuser.test.app-mergeDebugAndroidTestResources-4 C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.kingearnuser.test.app-mergeDebugAndroidTestResources-5 C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.kingearnuser.test.app-merged_res-6 C:\Users\kunal.sabhadiya\AndroidStudioProjects\KIngEarnUser\app\build\intermediates\merged_res\debugAndroidTest

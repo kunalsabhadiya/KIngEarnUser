@@ -1,17 +1,59 @@
 package com.example.kingearnuser.Activity;
 
-import static com.example.kingearnuser.Utils.SketchwareUtil.showMessage;
 
+import android.animation.ObjectAnimator;
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.app.ProgressDialog;
+import android.app.TaskStackBuilder;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.net.Network;
+import android.net.NetworkCapabilities;
+import android.net.Uri;
+import android.os.Build;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
+import android.util.SparseBooleanArray;
+import android.util.TypedValue;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.ScrollView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.annotation.*;
 import androidx.appcompat.widget.Toolbar;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.content.FileProvider;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.bumptech.glide.Glide;
+import com.example.kingearnuser.BuildConfig;
 import com.example.kingearnuser.Controller.RequestNetwork;
 import com.example.kingearnuser.Controller.RequestNetworkController;
 import com.example.kingearnuser.R;
 import com.example.kingearnuser.Utils.SketchwareUtil;
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
@@ -20,51 +62,22 @@ import com.google.android.gms.ads.ResponseInfo;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.material.appbar.AppBarLayout;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-
-import android.annotation.SuppressLint;
-import android.net.Network;
-import android.net.NetworkCapabilities;
-import android.widget.LinearLayout;
-import android.app.*;
-import android.os.*;
-import android.view.*;
-import android.widget.*;
-import android.content.*;
-import android.graphics.*;
-import android.text.*;
-import android.util.*;
-
-import java.util.*;
-import java.util.HashMap;
-import android.widget.ScrollView;
-import android.widget.ImageView;
-import android.widget.TextView;
-import com.google.android.gms.ads.AdView;
-import de.hdodenhof.circleimageview.*;
-import android.content.Intent;
-import android.net.Uri;
-import android.animation.ObjectAnimator;
-
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.GenericTypeIndicator;
-import com.google.firebase.database.ChildEventListener;
-import android.app.AlertDialog;
-import com.google.firebase.auth.FirebaseAuth;
-import android.app.Activity;
-import android.content.SharedPreferences;
-import java.util.Calendar;
+
+import java.io.File;
 import java.text.SimpleDateFormat;
-import com.google.android.gms.ads.AdListener;
-import android.view.View;
-import android.graphics.Typeface;
-import com.bumptech.glide.Glide;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Random;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class HomeActivity extends AppCompatActivity {
@@ -118,26 +131,15 @@ public class HomeActivity extends AppCompatActivity {
 	private LinearLayout hist;
 	private LinearLayout support;
 	private LinearLayout others;
-	private ImageView imageview13;
-	private TextView textview15;
-	private ImageView imageview14;
-	private TextView textview16;
-	private ImageView imageview15;
-	private TextView textview17;
-	private ScrollView _drawer_vscroll1;
-	private LinearLayout _drawer_linear1;
-	private LinearLayout _drawer_linear2;
 	private LinearLayout _drawer_home;
 	private LinearLayout _drawer_profile;
 	private LinearLayout _drawer_membership;
-	private LinearLayout _drawer_rateus;
 	private LinearLayout _drawer_share;
 	private LinearLayout _drawer_privacy;
 	private LinearLayout _drawer_about;
 	private LinearLayout _drawer_report;
 	private LinearLayout _drawer_guide;
 	private LinearLayout _drawer_exit;
-	private LinearLayout _drawer_linear16;
 	private LinearLayout _drawer_linear3;
 	private CircleImageView _drawer_imageview_avatar;
 	private TextView _drawer_textview_name;
@@ -149,10 +151,8 @@ public class HomeActivity extends AppCompatActivity {
 	private RequestNetwork.RequestListener _net_request_listener;
 	private Intent nett = new Intent();
 	private Intent i = new Intent();
-	private ObjectAnimator animator = new ObjectAnimator();
 	private Intent p = new Intent();
 	private Intent a = new Intent();
-	private ObjectAnimator oa = new ObjectAnimator();
 	private Intent profile = new Intent();
 	private Intent member = new Intent();
 	private DatabaseReference users = _firebase.getReference("users");
@@ -227,26 +227,15 @@ public class HomeActivity extends AppCompatActivity {
 		hist = (LinearLayout) findViewById(R.id.hist);
 		support = (LinearLayout) findViewById(R.id.support);
 		others = (LinearLayout) findViewById(R.id.others);
-		imageview13 = (ImageView) findViewById(R.id.imageview13);
-		textview15 = (TextView) findViewById(R.id.textview15);
-		imageview14 = (ImageView) findViewById(R.id.imageview14);
-		textview16 = (TextView) findViewById(R.id.textview16);
-		imageview15 = (ImageView) findViewById(R.id.imageview15);
-		textview17 = (TextView) findViewById(R.id.textview17);
-		_drawer_vscroll1 = (ScrollView) _nav_view.findViewById(R.id.vscroll1);
-		_drawer_linear1 = (LinearLayout) _nav_view.findViewById(R.id.linear1);
-		_drawer_linear2 = (LinearLayout) _nav_view.findViewById(R.id.linear2);
 		_drawer_home = (LinearLayout) _nav_view.findViewById(R.id.home);
 		_drawer_profile = (LinearLayout) _nav_view.findViewById(R.id.profile);
 		_drawer_membership = (LinearLayout) _nav_view.findViewById(R.id.membership);
-		_drawer_rateus = (LinearLayout) _nav_view.findViewById(R.id.rateus);
 		_drawer_share = (LinearLayout) _nav_view.findViewById(R.id.share);
 		_drawer_privacy = (LinearLayout) _nav_view.findViewById(R.id.privacy);
 		_drawer_about = (LinearLayout) _nav_view.findViewById(R.id.about);
 		_drawer_report = (LinearLayout) _nav_view.findViewById(R.id.report);
 		_drawer_guide = (LinearLayout) _nav_view.findViewById(R.id.guide);
 		_drawer_exit = (LinearLayout) _nav_view.findViewById(R.id.exit);
-		_drawer_linear16 = (LinearLayout) _nav_view.findViewById(R.id.linear16);
 		_drawer_linear3 = (LinearLayout) _nav_view.findViewById(R.id.linear3);
 		_drawer_imageview_avatar = (CircleImageView) _nav_view.findViewById(R.id.imageview_avatar);
 		_drawer_textview_name = (TextView) _nav_view.findViewById(R.id.textview_name);
@@ -495,7 +484,7 @@ public class HomeActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				go.setAction(Intent.ACTION_VIEW);
-				go.setData(Uri.parse("https://codecanyon.net/user/kingitlimited/portfolio"));
+				go.setData(Uri.parse("https://google.com"));
 				startActivity(go);
 			}
 		});
@@ -562,63 +551,63 @@ public class HomeActivity extends AppCompatActivity {
 							tm_difference = clnd.getTimeInMillis() - current_time;
 							if (tm_difference < 60000) {
 								if ((tm_difference / 1000) < 2) {
-									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" second ago")))));
+									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" second ago")))));
 								}
 								else {
-									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" seconds ago")))));
+									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" seconds ago")))));
 								}
 							}
 							else {
 								if (tm_difference < (60 * 60000)) {
 									if ((tm_difference / 60000) < 2) {
-										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minute ago")))));
+										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minute ago")))));
 									}
 									else {
-										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minutes ago")))));
+										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minutes ago")))));
 									}
 								}
 								else {
 									if (tm_difference < (24 * (60 * 60000))) {
 										if ((tm_difference / (60 * 60000)) < 2) {
-											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hour ago")))));
+											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hour ago")))));
 										}
 										else {
-											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hours ago")))));
+											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hours ago")))));
 										}
 									}
 									else {
 										if (tm_difference < (7 * (24 * (60 * 60000)))) {
 											if ((tm_difference / (24 * (60 * 60000))) < 2) {
-												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" day ago")))));
+												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" day ago")))));
 											}
 											else {
-												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" days ago")))));
+												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" days ago")))));
 											}
 										}
 										else {
 											if (tm_difference < (4 * (7 * (24 * (60 * 60000))))) {
 												if ((tm_difference / (7 * (24 * (60 * 60000)))) < 2) {
-													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" week ago")))));
+													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" week ago")))));
 												}
 												else {
-													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" weeks ago")))));
+													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" weeks ago")))));
 												}
 											}
 											else {
 												if (tm_difference < (12 * (4 * (7 * (24 * (60 * 60000)))))) {
 													if ((tm_difference / (4 * (7 * (24 * (60 * 60000))))) < 2) {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" month ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" month ago")))));
 													}
 													else {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" months ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" months ago")))));
 													}
 												}
 												else {
 													if ((tm_difference / (12 * (4 * (7 * (24 * (60 * 60000)))))) < 2) {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" year ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" year ago")))));
 													}
 													else {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" years ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" years ago")))));
 													}
 												}
 											}
@@ -672,63 +661,63 @@ public class HomeActivity extends AppCompatActivity {
 							tm_difference = clnd.getTimeInMillis() - current_time;
 							if (tm_difference < 60000) {
 								if ((tm_difference / 1000) < 2) {
-									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" second ago")))));
+									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" second ago")))));
 								}
 								else {
-									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" seconds ago")))));
+									_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 1000)).concat(" seconds ago")))));
 								}
 							}
 							else {
 								if (tm_difference < (60 * 60000)) {
 									if ((tm_difference / 60000) < 2) {
-										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minute ago")))));
+										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minute ago")))));
 									}
 									else {
-										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minutes ago")))));
+										_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / 60000)).concat(" minutes ago")))));
 									}
 								}
 								else {
 									if (tm_difference < (24 * (60 * 60000))) {
 										if ((tm_difference / (60 * 60000)) < 2) {
-											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hour ago")))));
+											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hour ago")))));
 										}
 										else {
-											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hours ago")))));
+											_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (60 * 60000))).concat(" hours ago")))));
 										}
 									}
 									else {
 										if (tm_difference < (7 * (24 * (60 * 60000)))) {
 											if ((tm_difference / (24 * (60 * 60000))) < 2) {
-												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" day ago")))));
+												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" day ago")))));
 											}
 											else {
-												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" days ago")))));
+												_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (24 * (60 * 60000)))).concat(" days ago")))));
 											}
 										}
 										else {
 											if (tm_difference < (4 * (7 * (24 * (60 * 60000))))) {
 												if ((tm_difference / (7 * (24 * (60 * 60000)))) < 2) {
-													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" week ago")))));
+													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" week ago")))));
 												}
 												else {
-													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" weeks ago")))));
+													_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (7 * (24 * (60 * 60000))))).concat(" weeks ago")))));
 												}
 											}
 											else {
 												if (tm_difference < (12 * (4 * (7 * (24 * (60 * 60000)))))) {
 													if ((tm_difference / (4 * (7 * (24 * (60 * 60000))))) < 2) {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" month ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" month ago")))));
 													}
 													else {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" months ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (4 * (7 * (24 * (60 * 60000)))))).concat(" months ago")))));
 													}
 												}
 												else {
 													if ((tm_difference / (12 * (4 * (7 * (24 * (60 * 60000)))))) < 2) {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" year ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" year ago")))));
 													}
 													else {
-														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to KingEarn family. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" years ago")))));
+														_MarqueeText(textview4, "Hello! ".concat(username.concat(", Welcome to CoinWise Earn. Your last login time ".concat(String.valueOf((long)(tm_difference / (12 * (4 * (7 * (24 * (60 * 60000))))))).concat(" years ago")))));
 													}
 												}
 											}
@@ -1205,7 +1194,7 @@ public class HomeActivity extends AppCompatActivity {
 		_drawer_share.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
-				_shareText("Hey! You want to make money from online? KingEarn is best platform. I am using this. You can join with us. Click here: https://codecanyon.net/user//portfolio");
+				_shareText("Hey! You want to make money from online? CoinWise Earn is best platform. I am using this. You can join with us. Click here:https://drive.google.com/file/d/1-zT1Cwa120imh1RrjrBvfk0RnGrxTlfQ/view?usp=drivesdk");
 			}
 		});
 		
@@ -1213,7 +1202,7 @@ public class HomeActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				p.putExtra("title", "Privacy Policy");
-				p.putExtra("link", "https://codecanyon.net/user/kingitlimited/portfolio");
+				p.putExtra("link", "https://google.com");
 				p.setClass(getApplicationContext(), WebActivity.class);
 				startActivity(p);
 				_drawer.closeDrawer(GravityCompat.START);
@@ -1224,7 +1213,7 @@ public class HomeActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				a.putExtra("title", "About Us");
-				a.putExtra("link", "https://codecanyon.net/user/kingitlimited/portfolio");
+				a.putExtra("link", "https://google.com");
 				a.setClass(getApplicationContext(), WebActivity.class);
 				startActivity(a);
 				_drawer.closeDrawer(GravityCompat.START);
@@ -1235,8 +1224,8 @@ public class HomeActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				p.setAction(Intent.ACTION_VIEW);
-				p.setData(Uri.parse("mailto:Kingrizviahmmed@gmail.com"));
-				p.putExtra("subject", "Report or Suggestion | KingEarn");
+				p.setData(Uri.parse("mailto:coinwiseearn@gmail.com"));
+				p.putExtra("subject", "Report or Suggestion | CoinWise Earn");
 				startActivity(p);
 				_drawer.closeDrawer(GravityCompat.START);
 			}
@@ -1245,7 +1234,7 @@ public class HomeActivity extends AppCompatActivity {
 		_drawer_guide.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
-				a.putExtra("link", "https://codecanyon.net/user/kingitlimited/portfolio");
+				a.putExtra("link", "https://google.com");
 				a.setClass(getApplicationContext(), WebActivity.class);
 				startActivity(a);
 				_drawer.closeDrawer(GravityCompat.START);
@@ -1262,7 +1251,7 @@ public class HomeActivity extends AppCompatActivity {
 		_drawer_imageview14.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
-				p.putExtra("link", "https://codecanyon.net/user/kingitlimited/portfolio");
+				p.putExtra("link", "https://google.com");
 				p.setClass(getApplicationContext(), WebActivity.class);
 				startActivity(p);
 				_drawer.closeDrawer(GravityCompat.START);
@@ -1273,7 +1262,7 @@ public class HomeActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				p.setAction(Intent.ACTION_VIEW);
-				p.setData(Uri.parse("https://codecanyon.net/user/kingitlimited/portfolio"));
+				p.setData(Uri.parse("https://google.com"));
 				startActivity(p);
 				_drawer.closeDrawer(GravityCompat.START);
 			}
@@ -1616,7 +1605,7 @@ public class HomeActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View _view) {
 				i.setAction(Intent.ACTION_VIEW);
-				i.setData(Uri.parse("https://codecanyon.net/user/kingitlimited/portfolio"));
+				i.setData(Uri.parse("https://google.com"));
 				startActivity(i);
 			}
 		});
@@ -1781,6 +1770,9 @@ public class HomeActivity extends AppCompatActivity {
 		Intent shareIntent = Intent.createChooser(sendIntent, null);
 		
 		startActivity(shareIntent);
+
+
+
 	}
 	
 	

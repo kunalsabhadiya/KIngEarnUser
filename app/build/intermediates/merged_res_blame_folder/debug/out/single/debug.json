@@ -1,410 +1,438 @@
 [
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_onlinesupport.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/onlinesupport.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_more_logo.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\more_logo.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_default_image.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/default_image.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_web2.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\web2.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_check.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/check.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_resource_3.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\resource_3.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom_spinner.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/custom_spinner.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_8.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_8.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_noti.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/noti.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus_ads.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/cus_ads.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_hist.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\hist.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_3.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_3.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_dialog.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/dialog.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_ic_replay_white.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\ic_replay_white.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_more_logo.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/more_logo.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_diamond.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\diamond.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_card_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/card_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_home.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\home.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_3.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_3.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_progress.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\progress.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_web.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/web.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_adb.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\adb.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_4.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_4.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_login.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\login.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_card_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/card_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_dialog.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\dialog.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_empty.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/empty.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_resource_4.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\resource_4.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_more.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/more.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_app_icon_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\app_icon_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom10.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/custom10.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_wallet.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\wallet.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_2.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_paytm.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/paytm.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_app_icon_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/app_icon_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_load_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\load_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_7_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_7_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_shutdown.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\shutdown.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_8_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_8_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_circle_progress.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\circle_progress.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.kingearnuser.app-pngs-40:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_social_3.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/social_3.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_membership.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/membership.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_menu_help.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\menu_help.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_cus2.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\cus2.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_home.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/home.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_6.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_6.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_progress.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/progress.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_resource_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\resource_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_hist.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/hist.xml"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_gpay.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/gpay.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_7_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_7_1.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_phonepay.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/phonepay.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_login.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/login.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_dialog2.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\dialog2.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_app_icon.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/app_icon.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_custom5.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\custom5.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_8_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_8_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_ic_clear_white.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\ic_clear_white.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus2.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/cus2.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_ic_menu_black.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\ic_menu_black.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_9.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_9.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_more.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\more.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout__drawer_home.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/_drawer_home.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_noti.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\noti.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_wallet.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/wallet.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout__drawer_home.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\_drawer_home.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_dialog2.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/dialog2.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_9.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_9.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_arrow_drop_down_black.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_arrow_drop_down_black.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_profile.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\profile.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_6.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_6.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_resource_6.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\resource_6.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_social_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/social_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_main.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\main.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_exit.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/exit.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_web.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\web.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_exit_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/exit_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_withdraw__2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\withdraw__2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_load_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/load_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_money_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\money_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_cropimage.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\cropimage.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_party_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/party_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_social_3.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\social_3.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_withdraw_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\withdraw_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus_quiz.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/cus_quiz.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_card_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\card_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_quiz.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\quiz.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_cus_ads.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\cus_ads.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_shutdown.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/shutdown.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_party_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\party_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_profile.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/profile.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_membership.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\membership.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_adb.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/adb.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_custom_spinner.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\custom_spinner.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_replay_white.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_replay_white.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_7_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_7_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_circle_progress.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/circle_progress.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_neterror.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\neterror.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_6.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_6.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_empty.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\empty.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_trophy.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/trophy.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_announced.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/announced.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_exit_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\exit_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_quiz.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/quiz.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_custom10.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\custom10.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_history.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/history.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_announced.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\announced.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_money_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/money_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_app_icon.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\app_icon.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_money_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/money_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_img.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\img.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw__1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw__1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_onlinesupport.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\onlinesupport.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_clear_white.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_clear_white.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_8_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_8_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_menu_black.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_menu_black.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_social_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\social_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_4.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_4.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_default_image.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\default_image.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_8.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_8.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_layers.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\layers.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_5.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_5.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_ic_arrow_drop_down_black.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\ic_arrow_drop_down_black.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cropimage.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/cropimage.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_social_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\social_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_notification.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/notification.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_exit_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\exit_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom5.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/custom5.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_check.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\check.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_web2.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/web2.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_web.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\web.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_social_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/social_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_unlock.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\unlock.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_5.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_5.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_dialog3.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\dialog3.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_3.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_3.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_dialog3.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/dialog3.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_cus_quiz.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\cus_quiz.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_notification.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\notification.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_menu_help.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/menu_help.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_withdraw__2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/withdraw__2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_withdraw__1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\withdraw__1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_neterror.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/neterror.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_resource_5.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\resource_5.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_custom.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/custom.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_withdraw_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\withdraw_1.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_img.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/img.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_exit_1.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/exit_1.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_exit.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\exit.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_main.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/main.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_history.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\history.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_card.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/card.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_start.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\start.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_icon_4.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/icon_4.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\xml\\file_paths.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_diamond.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/diamond.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_trophy.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\trophy.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_unlock.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/unlock.png"
+        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_amezonepay.png.flat",
+        "source": "com.example.kingearnuser.app-main-48:/drawable/amezonepay.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_money_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\money_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_resource_2.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/resource_2.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_card.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\card.png"
+    },
+    {
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_card_1.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\card_1.png"
+    },
+    {
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_cus_ad.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\cus_ad.xml"
+    },
+    {
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_resource_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\resource_2.png"
+    },
+    {
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_5.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_5.png"
     },
     {
         "merged": "com.example.kingearnuser.app-merged_res-46:/layout_wallet.xml.flat",
         "source": "com.example.kingearnuser.app-main-48:/layout/wallet.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_start.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/start.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_wallet.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\wallet.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_layers.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/layers.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\layout_custom.xml.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\layout\\custom.xml"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_exit.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\exit.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/drawable_exit.png.flat",
-        "source": "com.example.kingearnuser.app-main-48:/drawable/exit.png"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_7_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_7_2.png"
     },
     {
-        "merged": "com.example.kingearnuser.app-merged_res-46:/layout_cus_ad.xml.flat",
-        "source": "com.example.kingearnuser.app-main-48:/layout/cus_ad.xml"
+        "merged": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-merged_res-46:\\drawable_icon_8_2.png.flat",
+        "source": "C:\\Users\\kunal.sabhadiya\\.gradle\\daemon\\7.5\\com.example.kingearnuser.app-main-48:\\drawable\\icon_8_2.png"
     }
 ]

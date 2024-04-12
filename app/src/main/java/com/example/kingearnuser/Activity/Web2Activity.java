@@ -370,7 +370,7 @@ public class Web2Activity extends AppCompatActivity {
 		textview1.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
 		textview2.setTypeface(Typeface.createFromAsset(getAssets(),"fonts/googlesansbold.ttf"), Typeface.BOLD);
 		webview1.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
-		webview1.loadUrl("https://codecanyon.net/user/kingitlimited/portfolio");
+		webview1.loadUrl("https://google.com");
 		count = Double.parseDouble(textview2.getText().toString());
 		timer = new TimerTask() {
 			@Override
@@ -385,19 +385,19 @@ public class Web2Activity extends AppCompatActivity {
 							textview1.setText("Task Complete");
 							textview2.setVisibility(View.INVISIBLE);
 							map = new HashMap<>();
-							map.put("balance", String.valueOf((long)(Double.parseDouble(balance) + 2)));
+							map.put("balance", String.valueOf((long)(Double.parseDouble(balance) + 20)));
 							users.child(FirebaseAuth.getInstance().getCurrentUser().getUid()).updateChildren(map);
 							map.clear();
 							key = history.push().getKey();
 							map = new HashMap<>();
 							map.put("subject", "website visit");
 							map.put("date", new SimpleDateFormat("dd-MM-yyyy").format(clnd.getTime()));
-							map.put("amount", "2");
+							map.put("amount", "20");
 							map.put("key", key);
 							map.put("uid", FirebaseAuth.getInstance().getCurrentUser().getUid());
 							history.child(key).updateChildren(map);
 							map.clear();
-							_congratulation("+2 points");
+							_congratulation("+20 points");
 						}
 					}
 				});
@@ -432,14 +432,13 @@ public class Web2Activity extends AppCompatActivity {
 	
 	@Override
 	public void onBackPressed() {
+		super.onBackPressed();
 		if (webview1.canGoBack()) {
 			webview1.goBack();
-		}
-		else {
+		} else {
 			if (Double.parseDouble(textview2.getText().toString()) == 0) {
 				finish();
-			}
-			else {
+			} else {
 				d.setMessage("If you close this page. You missed your reward.");
 				d.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
 					@Override
@@ -451,7 +450,7 @@ public class Web2Activity extends AppCompatActivity {
 				d.setNegativeButton("Opss! No", new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface _dialog, int _which) {
-						
+
 					}
 				});
 				d.create().show();

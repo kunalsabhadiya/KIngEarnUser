@@ -181,7 +181,7 @@
 									android:id="@+id/rocket"
 									android:layout_width="40dp"
 									android:layout_height="40dp"
-									android:src="@drawable/social_1"
+									android:src="@drawable/web"
 									android:scaleType="fitCenter" />
 								<TextView
 									android:id="@+id/textview8"
